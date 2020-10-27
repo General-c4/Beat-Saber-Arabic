@@ -1,0 +1,901 @@
+STRING ID,DESCRIPTION,ENGLISH,FRENCH / FRANÇAIS,SPANISH / ESPAÑOL,GERMAN / DEUTSCH,ITALIAN / ITALIANO,PORTUGUESE / PORTUGUÊS (BR),PORTUGUESE / PORTUGUÊS (PT),RUSSIAN / РУССКИЙ,GREEK / ΕΛΛΗΝΙΚΑ,TURKISH / TÜRKÇE,DANISH / DANSK,NORWEGIAN (NB) / NORSK BOKMÅL,SWEDISH / SVENSKA,DUTCH / NEDERLANDS,POLISH / POLSKI,FINNISH / SUOMI,JAPANESE / 日本語,SIMPLIFIED CHINESE / 简体中文,TRADITIONAL CHINESE / 繁体中文,KOREAN / 한국어,CZECH / ČEŠTINA,HUNGARIAN / MAGYAR,ROMANIAN / ROMÂNĂ,THAI / ภาษาไทย,BULGARIAN / БЪЛГАРСКИ,עברית / HEBREW,العربية / ARABIC,BOSNIAN
+LANGUAGE_CODE,IETF language tag(s) without dash,enUS enGB,frFR,esES esAR esMX,deDE deCH deAT,itIT itCH,ptBR,ptPT,ruRU,elGR,trTR,daDK,noNB,svSE,nlNL,plPL,fiFI,jaJP,zhCN zhSG,zhTW zhHK zhMO,koKR,csCZ,huHU,roRO,thTH,bgBG,heIL,ar001,bsBS
+LANGUAGE_EN,[LanguageName] in english,English,French,Spanish,German,Italian,Portuguese (Brazil),Portuguese,Russian,Greek,Turkish,Danish,Norwegian,Swedish,Dutch,Polish,Finnish,Japanese,Simplified Chinese,Traditional Chinese,Korean,Czech,Hungarian,Romanian,Thai,Bulgarian,Hebrew,Arabic,Bosnian
+LANGUAGE_DIRECTION,ltr or rtl (text direction used by game code),ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,ltr,rtl,rtl,ltr
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Polyglot,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HEALTH_AND_SAFETY_WARNING_TITLE,,ﺔﻣﻼﺴﻟﺍﻭ ﺔﺤﺼﻟﺍ ﻥﺄﺸﺑ ﺮﻳﺬﺤﺗ,,,,,,,,,,,,,,,,,健康与安全警示,,,,,,,,,,
+HEALTH_AND_SAFETY_WARNING_CONTENT,,"ﺾﻌﺒﻟ ﺽﺮﻌﺘﻟﺍ ﺪﻨﻋ ﺕﺎﺑﻮﻨﻟ ﺹﺎﺨﺷﻷﺍ ﻦﻣ ﺓﺮﻴﻐﺻ ﺔﺒﺴﻧ ﺽﺮﻌﺘﺗ ﺪﻗ <br> ﻉﺮﺼﻟﺍ ﻦﻣ ﺦﻳﺭﺎﺗ ﺩﻮﺟﻭ ﻡﺪﻋ ﻊﻣ ﻰﺘﺣ ﺭﻮﺼﻟﺍ ﻭﺃ ﻁﺎﻤﻧﻷﺍ ﻭﺃ ﺀﺍﻮﺿﻷﺍ <br> .ﺕﺎﺑﻮﻨﻟﺍ ﻭﺃ
+
+ﺔﻋﺎﻤﺳ ﺕﺍﺩﺎﺷﺭﺇ ﻞﻴﻟﺩ ﻲﻓ ﺔﻣﻼﺴﻟﺍﻭ ﺔﺤﺼﻟﺍ ﺕﺍﺮﻳﺬﺤﺗ ﺓﺀﺍﺮﻗ ﻰﺟﺮﻳ <br> ﻚﻌﻴﺠﺸﺗ ﻢﺘﻳ ﺪﻗ ﻪﻧﻷ ﺍًﺮﻈﻧ .ﺮﺒﻴﺳ ﺖﻴﺑ ﻞﻴﻐﺸﺗ ﻞﺒﻗ ﻲﺿﺍﺮﺘﻓﻻﺍ ﻊﻗﺍﻮﻟﺍ <br> ﺪﻛﺄﺗ ، ﻚﺑ ﺔﺻﺎﺨﻟﺍ ﻢﻜﺤﺘﻟﺍ ﺕﺍﺪﺣﻭ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻒﺜﻜﻣ ﻞﻤﻌﺑ ﻡﺎﻴﻘﻟﺍ ﻰﻠﻋ <br> ﺔﺻﺎﺨﻟﺍ ﺐﻌﻠﻟﺍ ﺔﻘﻄﻨﻣ ﻲﻓ ﺕﺎﺒﻘﻋ ﻱﺃ ﺔﻟﺍﺯﺇﻭ ﻚﻄﻴﺤﻣ ﺔﻌﺟﺍﺮﻣ ﻦﻣ ﺎﻀﻳﺃ <br> ﻲﺘﻟﺍ ﺐﻌﻠﻟﺍ ﺔﻘﻄﻨﻣ ﻂﺳﻭ ﻲﻓ ﺀﺎﻘﺒﻟﺍ ﺎًﻤﺋﺍﺩ ﺮﻛﺬﺗ .ﺔﺒﻌﻠﻟﺍ ﺀﺪﺑ ﻞﺒﻗ ﻚﺑ <br> .ﻝﻮﺠﺘﺗ ﻻﻭ ﺎﻫﺮﻴﻬﻄﺗ ﻢﺗ
+
+ﺕﺍﺩﺎﻌﻟﺍ ﺲﻔﻧ ﻊﺒﺗﺍ ﺍﺬﻟ ، ﺎًﻴﻟﺎﻋ ﺎًﻴﻧﺪﺑ ﺎًﻃﺎﺸﻧ ﺮﺒﻴﺳ ﺖﻴﺑ ﺐﻌﻟ ﺐﻠﻄﺘﻳ <br>ﺐﻌﻠﻟﺍ ﻞﺒﻗ ﺩﺪﻤﺘﻟﺍ ﺲﻨﺗ ﻻ .ﻡﺎﻈﺘﻧﺎﺑ ﺔﻴﺿﺎﻳﺮﻟﺍ ﻦﻳﺭﺎﻤﺘﻟﺍ ﺔﺳﺭﺎﻤﻣ ﻞﺜﻣ <br> ﻲﻓ ﻢﻟﺃ ﻦﻣ ﺹﺎﺨﺷﻷﺍ ﺾﻌﺑ ﻲﻧﺎﻌﻳ ﺪﻗ .ﺕﺎﻳﻮﺘﺴﻤﻟﺍ ﻦﻴﺑ ﻡﺎﻈﺘﻧﺎﺑ ﺔﺣﺍﺮﻟﺍﻭ <br> .ﺡﺮﺘﺳﺍﻭ ﺔﺒﻌﻠﻟﺍ ﺔﺳﺭﺎﻤﻣ ﻦﻋ ﺍًﺭﻮﻓ ﻒﻗﻮﺘﻓ ﺍﺬﻫ ﺖﻬﺟﺍﻭ ﺍﺫﺇ .ﺕﻼﻀﻌﻟﺍ",,,,,,,,,,,,,,,,,"极小部分人可能会在看到特定灯光、图案或图像时出现癫痫症状。甚至没有癫痫或抽搐史的人也会出现此症状。
+
+在开始玩《节奏空间》之前，请仔细阅读在 VR 头盔使用指南中的健康与安全警示。您可能需要使用控制器做出激烈的动作，所以请务必在开始游戏前检查周围环境，并且清除游戏区域内所有障碍。切记，要站在周围无障碍的游戏区域中心，不要四处走动。
+
+《节奏空间》需要您作高强度的身体动作，因此请遵循您常规锻炼时的习惯。在游戏开始之前别忘了做一下拉伸，并且在游戏中途适时作休息。部分人可能会有肌肉酸痛感。如果您遇到此情况，请立即停止游戏并休息。",,,,,,,,,,
+CREDITS_TITLE,,ﺝﺎﺘﻧﻹﺍ ﻖﻳﺮﻓ,,,,,,,,,,,,,,,,,制作人员,,,,,,,,,,
+CREDITS_OG,,ﺕﺎﻣﻮﺳﺮﻟﺍﻭ ﻯﻮﺘﺴﻤﻟﺍﻭ ﺏﺎﻌﻟﻷﺍ ﻢﻴﻤﺼﺗﻭ ﺔﺠﻣﺮﺒﻟﺍ,,,,,,,,,,,,,,,,,"编程、
+游戏和关卡设计、
+画面",,,,,,,,,,
+CREDITS_GAME_DESIGN,,ﺔﺒﻌﻠﻟﺍ ﻢﻴﻤﺼﺗ,,,,,,,,,,,,,,,,,"编程、
+游戏设计",,,,,,,,,,
+CREDITS_SOUND,,ﺔﻴﺗﻮﺼﻟﺍ ﺕﺍﺮﺛﺆﻤﻟﺍﻭ ﻰﻘﻴﺳﻮﻤﻟﺍ,,,,,,,,,,,,,,,,,音乐与音效,,,,,,,,,,
+CREDITS_MARKETING,,ﻖﻳﻮﺴﺗ,,,,,,,,,,,,,,,,,市场,,,,,,,,,,
+CREDITS_PROGRAMMING,,ﺔﻴﻠﻴﻤﻜﺘﻟﺍ ﺔﺠﻣﺮﺒﻟﺍ,,,,,,,,,,,,,,,,,补充编程,,,,,,,,,,
+CREDITS_LEVEL_CREATORS,,ﻦﻴﻋﺪﺒﻤﻟﺍ ﻯﻮﺘﺴﻣ,,,,,,,,,,,,,,,,,补充关卡制作,,,,,,,,,,
+CREDITS_3D_GRAPHICS,,ﺩﺎﻌﺑﻷﺍ ﺔﻴﺛﻼﺛ ﺕﺎﻣﻮﺳﺭ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CREDITS_EXTRA_MUSIC_ARTISTS,,ﺔﻴﻓﺎﺿﺍ ﻰﻘﻴﺳﻮﻤﻟﺍ ﻦﻴﻧﺎﻨﻔﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CREDITS_2D_GRAPHICS,,ﺩﺎﻌﺑﻷﺍ ﺔﻴﺋﺎﻨﺛ ﺕﺎﻣﻮﺳﺭ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CREDITS_THANK_YOU_NOTE,,!ﺔﻘﻴﻘﺣ ﺔﺒﻌﻠﻟﺍ ﻩﺬﻫ ﻞﻌﺟ ﻲﻓ ﺎﻧﺪﻋﺎﺳﻭ ﺎﻨﻤﻋﺩ ﻦﻣ ﻞﻜﻟ ﺍًﺮﻜﺷ,,,,,,,,,,,,,,,,,感谢支持我们帮助我们完成这款游戏的每个人！,,,,,,,,,,
+CREDITS_SPECIAL_THANKS,,ﺹﺎﺧ ﺮﻜﺷ,,,,,,,,,,,,,,,,,特别鸣谢,,,,,,,,,,
+CREDITS_VFX,,ﺔﻳﺮﺼﺒﻟﺍ ﺕﺍﺮﺛﺆﻤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CREDITS_CONTENT,,"<size=150%>ﺝﺎﺘﻧﻹﺍ ﻖﻳﺮﻓ</color></size>
+
+<color=#FFFFFF88>،ﺔﺠﻣﺮﺑ
+، ﻯﻮﺘﺴﻤﻟﺍﻭ ﺔﺒﻌﻠﻟﺍ ﻢﻴﻤﺼﺗ
+ﺕﺎﻣﻮﺳﺮﻟﺍ</color>
+Jan Ilavsky
+
+<color=#FFFFFF88>،ﺔﺠﻣﺮﺑ
+ﺔﺒﻌﻠﻟﺍ ﻢﻴﻤﺼﺗ</color>
+Vladimir Hrincar
+
+<color=#FFFFFF88>ﺕﻮﺼﻟﺍﻭ ﻰﻘﻴﺳﻮﻤﻟﺍ ﻯﻮﺘﺤﻣ</color>
+Jaroslav Beck
+
+<color=#FFFFFF88>،ﺔﺠﻣﺮﺑ
+ﻯﻮﺘﺴﻤﻟﺍﻭ ﺔﺒﻌﻠﻟﺍ ﻢﻴﻤﺼﺗ</color>
+Peter Hrincar
+
+<color=#FFFFFF88>ﻖﻳﻮﺴﺗ</color>
+Michaela Dvorakova
+Zuzana Cinkova
+
+<color=#FFFFFF88>ﺔﻴﻓﺎﺿﺇ ﺔﺠﻣﺮﺑ</color>
+David Rysanek
+Jakub Tkac
+Jindrich Skeldal
+Jaroslav Stehlik
+Jacob Keen
+Martin Linda
+
+<color=#FFFFFF88>ﻲﻓﺎﺿﻹﺍ ﻯﻮﺘﺴﻤﻟﺍ ﻉﺎّﻨُﺻ</color>
+Josh 'Freeek' Joynes
+Jason 'GreatYazer' Planera
+Erlend 'Ruckus' Skotheim
+Benny 'DaBeast' White
+Matt 'Purphoros' Levet
+Miroslav Mikolaj
+Joonas 'Rustic' Jarvinen
+Daniel 'Kolezan' Pettersson
+
+<color=#FFFFFF88>ﺔﻴﻓﺎﺿﺇ ﺩﺎﻌﺑﻷﺍ ﺔﻴﺛﻼﺛ ﺕﺎﻣﻮﺳﺭ</color>
+Daniel Garcia Aranda
+Alejandro Bielsa Martin
+Laura Uson Dolsac
+Pedro Solans
+
+<color=#FFFFFF88>ﻲﻠﺻﻻﺍ ﻲﺗﻮﺼﻟﺍ ﻊﻄﻘﻤﻟﺍ Vol.I</color>
+Jaroslav Beck
+Summer Haze & James Ruehlmann
+Generdyn
+Backchat
+Kings & Folk
+Tom Norris (Mastering)
+
+<color=#FFFFFF88>ﻲﻠﺻﻻﺍ ﻲﺗﻮﺼﻟﺍ ﻊﻄﻘﻤﻟﺍ Vol.II</color>
+Jaroslav Beck
+Mord Fustang
+Boom Kitty
+Sedliv
+Frank Bentley
+Megaphonix
+
+<color=#FFFFFF88>ﻲﻠﺻﻻﺍ ﻲﺗﻮﺼﻟﺍ ﻊﻄﻘﻤﻟﺍ Vol.III</color>
+Jaroslav Beck & Jan Ilavsky
+Morgan Page
+Pegboard Nerds
+Pixl
+Slippy
+Mutrix
+Boom Kitty
+
+<color=#FFFFFF88>ﻦﻴﻧﺎﻨﻔﻟﺍ ﻰﻘﻴﺳﻮﻤﻟﺍ ﺕﺎﻓﺎﺿﺇ</color>
+K/DA
+Noisestorm
+Knower
+Virtual Self
+Camellia
+DJ Genki
+C-Show
+
+<color=#FFFFFF88>ﺕﺎﻛﺮﺘﺴﻧﻮﻣ ﻰﻘﻴﺳﻮﻣ ﻡﻮﺒﻟﺍ Vol.1</color>
+Artists: Aero Chord, Pegboard Nerds, Tokyo Machine, Muzzy, RIOT, Rogue, Stonebank, Kayzo, Tristam, Feint
+Label: Monstercat
+
+<color=#FFFFFF88>ﺲﻧﻮﺟﺍﺭﺩ ﻦﺟﺎﻣﺇ ﻰﻘﻴﺳﻮﻤﻟﺍ ﻡﻮﺒﻟﺍ</color>
+Natural (2018), Machine (2018), Bad Lair (2018), Thunder (2017), Believer (2017), Whatever It Takes (2017), Radioactive (2012), Digital (2018), It's Time (2012), Warriors (2015).
+Artist: Imagine Dragons
+Label: Universal Music s.r.o.
+
+<color=#FFFFFF88>ﻮﻜﺴﻳﺩ ﺍﺫ ﺕﺁ !ﻚﻴﻧﺎﺑ ﻰﻘﻴﺳﻮﻤﻟﺍ ﻡﻮﺒﻟﺍ</color>
+The Greatest Show, Victorious, High Hopes, Emperor's New Clothes.
+Artist: Panic! At The Disco
+Label: DCD2 / Fueled By Ramen / Elektra Music Group
+
+<color=#FFFFFF88>Rocket League x Monstercat Music Pack</color>
+Artists: Tokyo Machine, Stephen Walking, Slushii, Dion Timmer
+Label: Monstercat & Psyonix
+
+<color=#FFFFFF88>ﻱﺩ ﻦﻳﺮﻏ ﻰﻘﻴﺳﻮﻤﻟﺍ ﻡﻮﺒﻟﺍ</color>
+Fire, Ready, Aim
+Performed by Green Day
+Courtesy of Reprise Records
+By arrangement with Warner Music Group Video Game Licensing
+(P) 2019 Reprise Records
+
+Father of All…
+Performed by Green Day
+Courtesy of Reprise Records
+By arrangement with Warner Music Group Video Game Licensing
+(P) 2019 Reprise Records
+
+American Idiot
+Performed by Green Day
+Courtesy of Reprise Records
+By arrangement with Warner Music Group Video Game Licensing
+(P) 2004 Reprise Records
+
+Holiday
+Performed by Green Day
+Courtesy of Reprise Records
+By arrangement with Warner Music Group Video Game Licensing
+(P) 2004 Reprise Records
+
+Boulevard Of Broken Dreams
+Performed by Green Day
+Courtesy of Reprise Records
+By arrangement with Warner Music Group Video Game Licensing
+(P) 2004 Reprise Records
+
+Minority
+Performed by Green Day
+Courtesy of Reprise Records
+By arrangement with Warner Music Group Video Game Licensing
+(P) 2000 Reprise Records
+
+<color=#FFFFFF88>ﺪﻧﻻﺎﺒﻤﺗ ﻰﻘﻴﺳﻮﻤﻟﺍ ﻡﻮﺒﻟﺍ</color>
+Has A Meaning
+Written by: Timbaland, Sid Tipton, Angel Lopez, Nash Overstreet, Larrance ""Rance"" Dopson, Leon Thomas, Jonathan Myvett
+Produced by: Timbaland for Beatclub Inc.
+Co-Produced by: Larrance ""Rance"" Dopson, Anonxmous & Angel Lopez for Beatclub Inc.
+Performed by: Sid Tipton, Timbaland
+Published by: Bluestone/Anthem Entertainment, Sony ATV, Blue Nike Publishing / Songs Of Volume Ventures Administered by Peermusic III Ltd., Flexitarian Music, Kobalt Music Group
+Courtesy of: Timbaland Productions, Inc.
+
+While We're Young
+Written by: Lauren Christy, Nathan Brown, Mitchell Nugent, Jedidiah Gray, Federico Vindver,Benj Heard
+Produced by: Federico Vindver for Beatclub, Inc., Lauren Christy, Benj Heard
+Performed by: Wavezswavesz
+Published by: Warner Chappell, Benj Heard Music, Reservoir Media
+Courtesy of: Universal Music Group, Timbaland Productions Inc.
+
+What I Like
+Written by: KARRA, Nash Overstreet, Angel Lopez, Federico Vindver, Timbaland, Leonardo Brooks
+Produced by: Federico Vindver, Angel Lopez & Timbaland for BEATCLUB, Inc., Leonardo Brooks
+Performed by: KARRA, Nash Overstreet, Common Strangers
+Published by: Bluestone/Anthem Entertainment, Warner Chappell, Flexitarian Music, Leo Brooks Music, Karra Madden Publishing Administered by Ultra Music Publishing
+Courtesy of: Timbaland Productions, Inc.
+
+Dumb Thingz
+Written by: Kaydence, Jeffrey Baranowski, Luke Milano, Timbaland, Rickie ""Caso"" Tice, Federico Vindver
+Produced by: Timbaland & Federico Vindver for BEATCLUB, Inc. and 9AM
+Performed by: Kaydence, Timbaland
+Published by: Bluestone/Anthem Entertainment, Beach Wave Publishing and Last Gang Publishing Administered by Entertainment One Music, Seven Corners Music Administered by BMG Rights Management, Pen Piper Publishing
+Courtesy of: Timbaland Productions, Inc.
+
+Famous - feat. Jake Davis
+Written by: Adam Boukis, JoshRa Collins, Jake Davis, Bruno Martini, Timbaland,
+Performed by: Bruno Martini, Timbaland (feat. Jake Davis)
+Produced by: Adam Boukis, Jake Davis, JoshRa Collins, Timbaland
+Published by: Bluestone / Anthem Entertainment, Universal Music Latin Entertainment, Adam Zachary Boukis Publishing, Jake David Publishing, Joshua Trey Daniel Collins Publishing
+Courtesy of: Timbaland Productions, Inc.
+
+Music Clearance by: Rosie Howe - StraightUp Music Supervision
+Matthew Kamen - Grubman Shire & Meiselas, P.C.
+Jaroslav Beck - Beat Games
+Vickie Nauman - CrossBorderWorks Consulting & Advising
+
+<color=#FFFFFF88>ﻙﺭﺎﺑ ﻦﻴﻜﻨﻴﻟ ﻰﻘﻴﺳﻮﻤﻟﺍ ﻡﻮﺒﻟﺍ</color>
+Bleed It Out, Breaking the Habit, Faint, Given Up, In the End, New Divide, Numb, One Step Closer, Papercut, Somewhere I Belong, What I've Done
+Artist: Linkin Park
+
+!ﺔﻘﻴﻘﺣ ﺔﺒﻌﻠﻟﺍ ﻩﺬﻫ ﻞﻌﺟ ﻲﻓ ﺎﻧﺪﻋﺎﺳﻭ ﺎﻨﻤﻋﺩ ﻦﻣ ﻞﻜﻟ ﺍًﺮﻜﺷ
+
+<color=#FFFFFF88>ﺹﺎﺧ ﺮﻜﺷ</color>
+Barbora Ilavska, Helena Ilavska, Zuzana Vrablova, Jan Ilavsky Sr., Rober Vojta, Pavel Barak, Pavol Buday, Michal Berlinger, Pavel Dobrovsky, Jakub Dvorsky, Lukas Macura, Matous Jezek, Peter Nagy, Jenna Seiden, Marco DeMiroz, Tipatat Chennavasin, Deborah Guzman, Cix, Ruirize, Swan, AJ 'Dr Doom', Petr Sulc, Monika Hrincarova, Julie Planera",,,,,,,,,,,,,,,,,"<size=150%>制作人员</color></size>
+
+<color=#FFFFFF88>编程、
+游戏和关卡设计、
+画面</color>
+Jan Ilavsky
+
+<color=#FFFFFF88>编程、
+游戏设计</color>
+Vladimir Hrincar
+
+<color=#FFFFFF88>音乐与音效</color>
+Jaroslav Beck
+
+<color=#FFFFFF88>编程、
+游戏和关卡设计</color>
+Peter Hrincar
+
+<color=#FFFFFF88>市场</color>
+Michaela Dvorakova
+
+<color=#FFFFFF88>补充编程</color>
+Jaroslav Stehlik
+Jacob Keen
+
+<color=#FFFFFF88>补充关卡制作</color>
+Josh 'Freeek' Joynes
+Benny 'DaBeast' White
+Matt 'Purphoros' Levet
+Miroslav Mikolaj
+Jason 'GreatYazer' Planera
+Joonas 'Rustic' Jarvinen
+
+<color=#FFFFFF88>音乐制作</color>
+Boom Kitty
+Megaphonix
+Mord Fustang
+Sedliv
+Summer Haze 和 James Ruehlmann
+Backchat
+Generdyn
+Frank Bentley
+Kings & Folk
+
+<color=#FFFFFF88>音乐处理</color>
+Tom Norris
+
+感谢支持我们帮助我们完成这款游戏的每个人！
+
+<color=#FFFFFF88>特别鸣谢</color>
+Barbora Ilavska, Helena Ilavska, Zuzana Vrablova, Jan Ilavsky Sr., Rober Vojta, Pavel Barak, Pavol Buday, Michal Berlinger, Pavel Dobrovsky, Jakub Dvorsky, Lukas Macura, Matous Jezek, Peter Nagy, Jenna Seiden, Marco DeMiroz, Tipatat Chennavasin, Deborah Guzman, Cix, Ruirize, Swan, AJ 'Dr Doom', Petr Sulc, Monika Hrincarova, Julie Planera",,,,,,,,,,
+BUTTON_PLAY,,ﺐﻌﻟﺇ,,,,,,,,,,,,,,,,,开始,,,,,,,,,,
+BUTTON_CONTINUE,,ﺔﻌﺑﺎﺘﻣ,,,,,,,,,,,,,,,,,继续,,,,,,,,,,
+BUTTON_SKIP,,ﻰﻄﺨﺗ,,,,,,,,,,,,,,,,,跳过,,,,,,,,,,
+BUTTON_CANCEL,,ﺀﺎﻐﻟﺇ,,,,,,,,,,,,,,,,,取消,,,,,,,,,,
+BUTTON_RETRY,,ﺔﻟﻭﺎﺤﻤﻟﺍ ﺪﻋﺃ,,,,,,,,,,,,,,,,,重试,,,,,,,,,,
+BUTTON_OK,,ﺎﻨﺴﺣ,,,,,,,,,,,,,,,,,确认,,,,,,,,,,
+BUTTON_APPLY,,ﻖﻴﺒﻄﺗ,,,,,,,,,,,,,,,,,应用,,,,,,,,,,
+BUTTON_PLAY_TUTORIAL,,ﺐﻳﺭﺪﺘﻟﺍ ﺐﻌﻟ,,,,,,,,,,,,,,,,,开始教程,,,,,,,,,,
+BUTTON_CAMPAIGN,,ﺔﻠﻤﺣ,,,,,,,,,,,,,,,,,关卡模式,,,,,,,,,,
+BUTTON_CAMPAIGN_HINT,,"!ﺔﻠﻤﺤﻟﺍ ﻝﻼﺧ ﻦﻣ ﻡﺪﻘﺘﻟﺍﻭ ﺔﺤﺿﺍﻮﻟﺍ ﻑﺍﺪﻫﻷﺍﻭ ﺕﺎﻤﻬﻤﻟﺍ ﺐﻌﻟﺍ",,,,,,,,,,,,,,,,,开始任务，完成目标，在关卡模式中一路前进！,,,,,,,,,,
+BUTTON_SOLO,,ﺩﺮﻔﻣ,,,,,,,,,,,,,,,,,单人模式,,,,,,,,,,
+BUTTON_SOLO_HINT,,!ﻦﻳﻻ ﻥﻭﻷﺍ ﻲﻓ ﻦﻳﺭﺪﺼﺘﻤﻟﺍ ﻰﻠﻋ ﺲﻓﺎﻨﺘﻟﺍﻭ ﺪﻳﺮﺗ ﻯﻮﺘﺴﻣ ﻱﺃ ﺐﻌﻟ,,,,,,,,,,,,,,,,,随意选择关卡畅玩，并在网络排行榜上与人竞争！,,,,,,,,,,
+BUTTON_PARTY,,ﻪﻠﻔﺣ,,,,,,,,,,,,,,,,,聚会模式,,,,,,,,,,
+BUTTON_PARTY_HINT,,!ﺎﻴﻠﺤﻣ ﻚﺋﺎﻗﺪﺻﺃ ﻊﻣ ﺐﻌﻟﺍ,,,,,,,,,,,,,,,,,在本地和好友一起玩！,,,,,,,,,,
+BUTTON_HOW_TO_PLAY,,ﺐﻌﻠﺗ ﻒﻴﻛ,,,,,,,,,,,,,,,,,游戏玩法,,,,,,,,,,
+BUTTON_CREDITS,,ﺝﺎﺘﻧﻹﺍ ﻖﻳﺮﻓ,,,,,,,,,,,,,,,,,制作人员,,,,,,,,,,
+MENU_FLOOR_ADJUST,,ﺔﻴﺿﺭﻷﺍ ﻂﺒﺿ,,,,,,,,,,,,,,,,,地面校准,,,,,,,,,,
+BUTTON_SETTINGS,,ﺕﺍﺩﺍﺪﻋﻹﺍ,,,,,,,,,,,,,,,,,设置,,,,,,,,,,
+BUTTON_PLAYER_SETTINGS,,ﺐﻋﻼﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ,,,,,,,,,,,,,,,,,玩家设置,,,,,,,,,,
+BUTTON_QUIT,,ﺝﻭﺮﺧ,,,,,,,,,,,,,,,,,退出,,,,,,,,,,
+BUTTON_BASICS,,ﻲﺳﺎﺳﺃ,,,,,,,,,,,,,,,,,基础内容,,,,,,,,,,
+BUTTON_SCORE_SYSTEM,,ﻁﺎﻘﻨﻟﺍ ﻡﺎﻈﻧ,,,,,,,,,,,,,,,,,得分系统,,,,,,,,,,
+BUTTON_LOCAL_PLAYER,,ﻲﻠﺤﻣ ﺐﻋﻻ,,,,,,,,,,,,,,,,,本地玩家,,,,,,,,,,
+BUTTON_GUEST_PLAYER,,ﻒﻴﺿ ﺐﻋﻻ,,,,,,,,,,,,,,,,,访客玩家,,,,,,,,,,
+BUTTON_HIGHSCORES_ALL_TIME,,ﺖﻗﻮﻟﺍ ﻊﻴﻤﺟ,,,,,,,,,,,,,,,,,所有时间,,,,,,,,,,
+BUTTON_HIGHSCORES_TODAY,,ﻡﻮﻴﻟﺍ,,,,,,,,,,,,,,,,,今天,,,,,,,,,,
+BUTTON_HIGHSCORES_CLEAR_ALL,,ﻞﻜﻟﺍ ﺢﺴﻣ,,,,,,,,,,,,,,,,,清除所有,,,,,,,,,,
+BUTTON_HIGHSCORES_GLOBAL,,ﻲﻤﻟﺎﻋ,,,,,,,,,,,,,,,,,全球,,,,,,,,,,
+BUTTON_HIGHSCORES_AROUND_YOU,,ﻚﻟﻮﺣ,,,,,,,,,,,,,,,,,附近,,,,,,,,,,
+BUTTON_HIGHSCORES_FRIENDS,,ﺀﺎﻗﺪﺻﺃ,,,,,,,,,,,,,,,,,好友,,,,,,,,,,
+BUTTON_MODIFIERS,,ﺕﺎﻓﺎﺿﺇ,,,,,,,,,,,,,,,,,模组使用者,,,,,,,,,,
+BUTTON_BUY_LEVEL,,ﻯﻮﺘﺴﻣ ﺀﺍﺮﺷ,,,,,,,,,,,,,,,,,购买关卡,,,,,,,,,,
+BUTTON_BUY_MUSIC_PACK,,ﻰﻘﻴﺳﻮﻣ ﻡﻮﺒﻟﻷﺍ ﺀﺍﺮﺷ,,,,,,,,,,,,,,,,,购买音乐包,,,,,,,,,,
+BUTTON_RESET_ROOM,,Reset Room,,,,,,,,,,,,,,,,,重置房间,,,,,,,,,,
+BUTTON_MENU,,ﺔﻤﺋﺎﻗ,,,,,,,,,,,,,,,,,菜单,,,,,,,,,,
+BUTTON_RESTART,,ﺔﻟﻭﺎﺤﻤﻟﺍ ﺓﺩﺎﻋﺇ,,,,,,,,,,,,,,,,,重新开始,,,,,,,,,,
+HINT_OPTIONS_BUTTON,,ﺕﺍﺭﺎﻴﺧ,,,,,,,,,,,,,,,,,選項,,,,,,,,,,
+HINT_EDITOR_BUTTON,,ﺕﺎﺗﻮﻧ ﺮﻳﺮﺤﺗ,,,,,,,,,,,,,,,,,編輯,,,,,,,,,,
+HINT_HELP_BUTTON,,ﺓﺪﻋﺎﺴﻣ,,,,,,,,,,,,,,,,,幫幫我,,,,,,,,,,
+STATS_ALL,,ﻞﻜﻟﺍ,,,,,,,,,,,,,,,,,所有,,,,,,,,,,
+STATS_CAMPAIGN,,ﻲﻋﺎﻤﺟ,,,,,,,,,,,,,,,,,关卡模式,,,,,,,,,,
+STATS_SOLO,,ﺩﺮﻔﻣ,,,,,,,,,,,,,,,,,单人模式,,,,,,,,,,
+STATS_PARTY,,ﺔﻠﻔﺣ,,,,,,,,,,,,,,,,,聚会模式,,,,,,,,,,
+STATS_LEVELS_PLAYED,,ﺎﻬﺒﻌﻟ ﻢﺗ ﻲﺘﻟﺍ ﺕﺎﻳﻮﺘﺴﻤﻟﺍ,,,,,,,,,,,,,,,,,玩过的关卡,,,,,,,,,,
+STATS_LEVELS_CLEARED,,ﺕﺎﻳﻮﺘﺴﻤﻟﺍ ﺢﺴﻣ,,,,,,,,,,,,,,,,,完成的关卡,,,,,,,,,,
+STATS_LEVELS_FAILED,,ﺖﻠﺸﻓ ﺕﺎﻳﻮﺘﺴﻣ,,,,,,,,,,,,,,,,,失败的关卡,,,,,,,,,,
+STATS_TOTAL_PLAYED_TIME,,ﺐﻌﻠﻟﺍ ﺖﻗﻭ ﻉﻮﻤﺠﻣ,,,,,,,,,,,,,,,,,游戏总时间,,,,,,,,,,
+STATS_TOTAL_SCORE,,ﻁﺎﻘﻨﻟﺍ ﻉﻮﻤﺠﻣ,,,,,,,,,,,,,,,,,总分数,,,,,,,,,,
+STATS_HAND_DISTANCE_TRAVELLED,,ﺔﻋﻮﻄﻘﻤﻟﺍ ﺪﻴﻟﺍ ﺔﻓﺎﺴﻤﻟﺍ,,,,,,,,,,,,,,,,,双手移动的距离,,,,,,,,,,
+STATS_GOOD_CUTS,,ﺪﻴﺟ ﻊﻄﻗ,,,,,,,,,,,,,,,,,精准击中,,,,,,,,,,
+STATS_BAD_CUTS,,ﺊﻴﺳ ﻊﻄﻗ,,,,,,,,,,,,,,,,,勉强击中,,,,,,,,,,
+STATS_MISSED_NOTES,,ﺓﺩﻮﻘﻔﻣ ﺕﺎﺗﻮﻧ,,,,,,,,,,,,,,,,,漏过的音符,,,,,,,,,,
+STATS_FULL_COMBO,,ﺔﻴﻟﺎﺘﺘﻣ ﺕﺎﺑﺮﺿ,,,,,,,,,,,,,,,,,全连击,,,,,,,,,,
+STATS_AVERAGE_CUT_SCORE,,ﻊﻄﻘﻟﺍ ﻁﺎﻘﻧ ﻂﺳﻮﺘﻣ,,,,,,,,,,,,,,,,,平均每次削砍得分,,,,,,,,,,
+STATS_MAX_COMBO,,ﺕﺎﺑﺮﺿ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ,,,,,,,,,,,,,,,,,最大连击数,,,,,,,,,,
+STATS_HIGHSCORE,,ﺕﺎﺟﺭﺪﻟﺍ ﻰﻠﻋﺃ,,,,,,,,,,,,,,,,,高分,,,,,,,,,,
+STATS_MAX_RANK,,ﺔﺒﺗﺮﻤﻠﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ,,,,,,,,,,,,,,,,,最高排名,,,,,,,,,,
+STATS_RANK,,ﺔﺒﺗﺮﻣ,,,,,,,,,,,,,,,,,排名,,,,,,,,,,
+STATS_SCORE,,ﻁﺎﻘﻧ,,,,,,,,,,,,,,,,,得分,,,,,,,,,,
+STATS_DIFFICULTY,,ﻪﺑﻮﻌﺻ,,,,,,,,,,,,,,,,,难度,,,,,,,,,,
+INFO_BOMBS_COUNT,,ﻞﺑﺎﻨﻘﻟﺍ ﺩﺪﻋ,,,,,,,,,,,,,,,,,炸弹总数,,,,,,,,,,
+INFO_OBSTACLES_COUNT,,ﺕﺎﺒﻘﻌﻟﺍ ﺩﺪﻋ,,,,,,,,,,,,,,,,,障碍总数,,,,,,,,,,
+INFO_NOTES_COUNT,,ﺕﺎﺗﻮﻧ ﺩﺪﻋ,,,,,,,,,,,,,,,,,音符总数,,,,,,,,,,
+INFO_BPM,,ﺔﻘﻴﻗﺪﻟﺍ ﻲﻓ ﺔﻀﺒﻧ,,,,,,,,,,,,,,,,,每分钟的节拍,,,,,,,,,,
+INFO_TIME,,ﺖﻗﻭ,,,,,,,,,,,,,,,,,时间,,,,,,,,,,
+TITLE_HOW_TO_PLAY,,ﺐﻌﻠﺗ ﻒﻴﻛ,,,,,,,,,,,,,,,,,游戏玩法,,,,,,,,,,
+TITLE_PLAYER_SETTINGS,,ﺐﻋﻼﻟﺍ ﺕﺍﺩﺍﺪﻋﺃ,,,,,,,,,,,,,,,,,玩家设置,,,,,,,,,,
+TITLE_PLAYER_STATISTICS,,ﺐﻋﻼﻟﺍ ﺕﺎﻴﺋﺎﺼﺣﺇ,,,,,,,,,,,,,,,,,玩家统计,,,,,,,,,,
+TITLE_PRACTICE_MODE,,ﺐﻳﺭﺪﺘﻟﺍ ﻂﻤﻧ,,,,,,,,,,,,,,,,,练习模式,,,,,,,,,,
+TITLE_LEVEL,,ﻯﻮﺘﺴﻣ,,,,,,,,,,,,,,,,,关卡,,,,,,,,,,
+TITLE_FLOOR_ADJUST,,ﺔﻴﺿﺭﻷﺍ ﻂﺒﺿ,,,,,,,,,,,,,,,,,地面校准,,,,,,,,,,
+TITLE_HIGHSCORES,,ﻁﺎﻘﻧ ﻰﻠﻋﺃ,,,,,,,,,,,,,,,,,高分榜,,,,,,,,,,
+TITLE_LOCAL_HIGHSCORES,,ﻲﻠﺤﻣ ﻁﺎﻘﻧ ﻰﻠﻋﺃ,,,,,,,,,,,,,,,,,本地高分榜,,,,,,,,,,
+TITLE_GAME_PLAY_SETUP,,ﺔﺒﻌﻠﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ,,,,,,,,,,,,,,,,,游戏设置,,,,,,,,,,
+TITLE_ENTER_YOUR_NAME,,ﻚﻤﺳﺃ ﻞﺧﺩﺃ,,,,,,,,,,,,,,,,,输入你的名字,,,,,,,,,,
+TITLE_SOLO,,ﺩﺮﻔﻨﻣ,,,,,,,,,,,,,,,,,单人模式,,,,,,,,,,
+TITLE_PARTY,,ﻪﻠﻔﺣ,,,,,,,,,,,,,,,,,聚会模式,,,,,,,,,,
+TITLE_TUTORIAL,,ﺐﻳﺭﺪﺘﻟﺍ,,,,,,,,,,,,,,,,,教程,,,,,,,,,,
+TITLE_CAMPAIGN,,ﻲﻋﺎﻤﺟ,,,,,,,,,,,,,,,,,关卡模式,,,,,,,,,,
+TITLE_RESULTS,,ﺞﺋﺎﺘﻨﻟﺍ,,,,,,,,,,,,,,,,,成绩,,,,,,,,,,
+TITLE_SETTINGS,,ﺕﺍﺩﺍﺪﻋﻹﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_LEVEL_CLEARED,,ﻯﻮﺘﺴﻤﻟﺍ ﺀﺎﻬﺘﻧﺍ,,,,,,,,,,,,,,,,,完成的关卡,,,,,,,,,,
+PRACTICE_SONG_START,,ﺔﻴﻨﻏﻷﺍ ﺔﻳﺍﺪﺑ,,,,,,,,,,,,,,,,,歌曲开始,,,,,,,,,,
+PRACTICE_SPEED,,ﺔﻋﺮﺳ,,,,,,,,,,,,,,,,,速度,,,,,,,,,,
+PLAYER_SETTINGS_LEFT_HANDED,,ﺭﺎﺴﻴﻟﺍ ﺪﻴﻟﺍ,,,,,,,,,,,,,,,,,惯用左手,,,,,,,,,,
+PLAYER_SETTINGS_SWAP_COLORS,,ﻥﺍﻮﻟﻷﺍ ﻝﺍﺪﺒﺘﺳﺇ,,,,,,,,,,,,,,,,,交换颜色,,,,,,,,,,
+PLAYER_SETTINGS_STATIC_LIGHTS,,ﺔﺘﺑﺎﺛ ﺀﺍﻮﺿﺃ,,,,,,,,,,,,,,,,,静态光,,,,,,,,,,
+PLAYER_SETTINGS_PLAYER_HEIGHT,,ﺐﻋﻼﻟﺍ ﻉﺎﻔﺗﺭﺍ,,,,,,,,,,,,,,,,,玩家高度,,,,,,,,,,
+PLAYER_SETTINGS_PLAYER_HEIGHT_HINT,,.ﺐﻋﻼﻟﺍ ﻉﺎﻔﺗﺭﺍ ﻂﺒﺿ ﻞﺒﻗ ﺔﻗﺪﺑ ﺔﻓﺮﻐﻟﺍ ﺩﺍﺪﻋﺇ ﻦﻣ ﺪﻛﺄﺗ,,,,,,,,,,,,,,,,,在设置玩家高度之前，务必准确完成空间设置。,,,,,,,,,,
+PLAYER_SETTINGS_NO_TEXTS_AND_HUD,,ﺽﺮﻋ ﺔﺷﺎﺷ ﻭ ﺺﻧ ﺪﺟﻮﻳ ﻻ,,,,,,,,,,,,,,,,,不显示文本和抬头显示,,,,,,,,,,
+PLAYER_SETTINGS_ADVANCED_HUD,,ﺔﻣﺪﻘﺘﻣ ﺽﺮﻋ ﺔﺷﺎﺷ,,,,,,,,,,,,,,,,,高级抬头显示,,,,,,,,,,
+PLAYER_SETTINGS_DISABLE_SFX,,ﺔﻴﺗﻮﺼﻟﺍ ﺕﺍﺮﺛﺆﻤﻟﺍ ﻞﻴﻄﻌﺗ,,,,,,,,,,,,,,,,,禁用音效,,,,,,,,,,
+PLAYER_SETTINGS_REDUCE_DEBRIS,,ﻡﺎﻄﺤﻟﺍ ﻞﻴﻠﻘﺗ,,,,,,,,,,,,,,,,,减少碎片,,,,,,,,,,
+PLAYER_SETTINGS_NJSBO,,Note Jump Start Beat Offset,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_SETTINGS_NJSBO_TIP,,Note Jump Start Beat Offset,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_SETTINGS_JUMP_START_CLOSE,,ﻕﻼﻏﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_SETTINGS_JUMP_START_CLOSER,,ﻕﻼﻏﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_SETTINGS_JUMP_START_DEFAULT,,ﻲﺿﺍﺮﺘﻓﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_SETTINGS_JUMP_START_FURTHER,,ﻲﺿﺍﺮﺘﻓﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_SETTINGS_JUMP_START_FAR,,ﺍﺪﻴﻌﺑ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_SETTINGS_HIDE_NOTE_SPAWN_EFFECT,,Hide Note Spawning Effect,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_SETTINGS_ADAPTIVE_SFX,,ﺔﻴﻔﻴﻜﺘﻟﺍ ﺔﻴﺗﻮﺼﻟﺍ ﺕﺍﺮﺛﺆﻤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_SETTINGS_HEADER_GENERAL,,ﺔﻣﺎﻌﻟﺍ ﻞﻐﺸﻤﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_SETTINGS_HEADER_HUD,,ﺽﺮﻋ ﺔﺷﺎﺷ ﺕﺍﺩﺍﺪﻋﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_SETTINGS_HEADER_FX_SETTINGS,,ﺔﻴﺗﻮﺼﻟﺍ ﺕﺍﺮﺛﺆﻤﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CONTENT_SCORE_INFO,,"ﺔﻳﻭﺍﺯ ﻊﻣ ﺔﺣﻮﺟﺭﺃ ﺀﺍﺮﺟﺇ ، ﺓﺪﺣﺍﻭ ﻊﻄﻗ ﻲﻓ ﻁﺎﻘﻧ<color=#2DAAE2>100</color> - ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ  <br> ﺓﺮﻴﺒﻛ ﻕﻼﻄﻧﺍ ، 100 ﻦﻣ ﺔﻌﺑﺎﺘﻣﻭ ، ﺐﻌﻜﻤﻟﺍ ﺏﺮﺿ ﺚﻴﺣ ﻦﻣ ﺔﺟﺭﺩ <br> .ﺮﺜﻛﺃ ﺔﺟﺭﺩ 60 ﺓﺪﻤﻟ ﺐﻌﻜﻤﻟﺍ ﺏﺮﺿ ﺪﻌﺑ ﻝﻼﺧ
+
+ﻪﻌﻄﻗ ﻢﺗ ﻱﺬﻟﺍ ﺐﻌﻜﻤﻟﺍ ﺰﻛﺮﻣ ﺏﺮﻗ ﻯﺪﻣ ﻰﻠﻋ ﺀﺎﻨﺑ ﻁﺎﻘﻨﻟﺍ ﺢﻨﻣ ﻢﺘﻴﺳ<color=#2DAAE2>15</color>-ﺓﺄﻓﺎﻜﻣ",,,,,,,,,,,,,,,,,"- 如果想要得到 <color=#ffffff88>100</color>分的削砍，只需在削砍前后挥动的角度足够大（前 90°，后 60°）。
+
+- 根据削砍位置与方块中心的距离，可以额外获得 <color=#ffffff88>10</color> 分。",,,,,,,,,,
+CONTENT_CONBO_INFO,,.ﺄﻄﺧ ﻱﺃ ﺐﺒﺴﺑ ﻊﻄﻘﻨﺗ ﻢﻟ ﻲﺘﻟﺍ ﺔﻴﻟﺎﺘﺘﻤﻟﺍ ﺓﺪﻴﺠﻟﺍ ﺕﺎﺑﺮﻀﺘﻟﺍ ﺩﺪﻋ ﺔﻴﻟﺎﺘﺘﻤﻟﺍ ﺕﺎﺑﺮﻀﻟﺍ ﻞﺜﻤﺗ,,,,,,,,,,,,,,,,,连击表示连续精准击中的次数，不能因失误而打断。,,,,,,,,,,
+CONTENT_WARNING_PLAY_AREA,,!ﺎﻬﻴﻓ ﻝﻮﺠﺘﻟﺍ ﻡﺪﻋﻭ ﺎﻬﺤﺴﻣ ﻢﺗ ﻲﺘﻟﺍ ﺐﻌﻠﻟﺍ ﺔﻘﻄﻨﻣ ﻂﺳﻭ ﻲﻓ ﺀﺎﻘﺒﻟﺍ ًﺎﻤﺋﺍﺩ ﺮﻛﺬﺗ,,,,,,,,,,,,,,,,,切记，要站在周围无障碍的游戏区域中心，不要四处走动！,,,,,,,,,,
+HOW_TO_PLAY_NOTE_CUT,,ﻲﻓ ﺐﻌﻜﻤﻟﺍ ﺺﻗ <br> ﺔﻘﺑﺎﻄﻣﻭ ﻢﻬﺴﻟﺍ ﻩﺎﺠﺗﺍ <br> .ﻥﻮﻠﻟﺍ,,,,,,,,,,,,,,,,,沿着箭头的方向削砍并匹配颜色,,,,,,,,,,
+HOW_TO_PLAY_OBSTACLES,,ﻚﺳﺃﺭ ﻊﻣ ﻖﺋﺍﻮﻌﻟﺍ ﺐﻨﺠﺗ,,,,,,,,,,,,,,,,,避免头撞上障碍,,,,,,,,,,
+HOW_TO_PLAY_BOMB_CUT,,ﻞﺑﺎﻨﻘﻟﺍ ﻊﻄﻘﺗ ﻻ,,,,,,,,,,,,,,,,,不要砍到炸弹,,,,,,,,,,
+TUTORIAL_PUT_SABERS_IN_RING,,.ﺕﺎﻘﻠﺤﻟﺍ ﻩﺬﻫ ﻲﻓ ﻚﻓﻮﻴﺳ ﻊﺿ.,,,,,,,,,,,,,,,,,将光刃放入环内。,,,,,,,,,,
+TUTORIAL_CUT_ARROW_DIRECTION_COLOR,,ﻩﺎﺠﺗﺍ ﻲﻓ ﺐﻌﻜﻤﻟﺍ ﺺﻗ<br>.ﻥﻮﻠﻟﺍ ﺔﻘﺑﺎﻄﻣﻭ ﻢﻬﺴﻟﺍ,,,,,,,,,,,,,,,,,沿着箭头的方向削砍并匹配颜色。,,,,,,,,,,
+TUTORIAL_CUT_ANY_DIRECTION,,.ﻩﺎﺠﺗﺍ ﻱﺃ ﻲﻓ ﻊﻄﻗﺍ,,,,,,,,,,,,,,,,,沿任意方向削砍。,,,,,,,,,,
+TUTORIAL_DO_NOT_CUT_OR_TOUCH,,ﺲﻤﻠﺗ ﻭﺃ ﻊﻄﻘﺗ ﻻ<br>!ﻞﺑﺎﻨﻘﻟﺍ,,,,,,,,,,,,,,,,,不要用光刃削砍或触碰！,,,,,,,,,,
+TUTORIAL_LEAN_RIGHT,,! ﻦﻴﻤﻴﻠﻟ ﻞﻴﻣ <sprite=1 tint=1>,,,,,,,,,,,,,,,,,头往右偏！<sprite=1 tint=1>,,,,,,,,,,
+TUTORIAL_LEAN_LEFT,,<sprite=3 tint=1> ! ﺭﺎﺴﻴﻠﻟ ﻞﻴﻣ,,,,,,,,,,,,,,,,,<sprite=3 tint=1>头往左偏！,,,,,,,,,,
+TUTORIAL_CROUCH,,!ﻰﻨﺤﻧﺍ,,,,,,,,,,,,,,,,,蹲下！,,,,,,,,,,
+TUTORIAL_CONGRATULATIONS,,!ﺎﻨﻴﻧﺎﻬﺗ"
+".ﻥﻷﺍ ﺰﻫﺎﺟ ﺖﻧﺃ ﻞﻫ,,,,,,,,,,,,,,,,,"恭喜！
+你已经准备完毕。",,,,,,,,,,
+TUTORIAL_STAND_INSIDE_AREA,,".ﺓﺩﺪﺤﻤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﻞﺧﺍﺩ ﻒﻗ
+
+ﻒﻴﺴﻟﺍ ﻚﺴﻣﺃ <color=#00C0FF>ﻕﺭﺯﻷﺍ</color> ﻰﻨﻤﻴﻟﺍ ﻙﺪﻴﺑ
+ﻭ <color=#FF0000>ﺮﻤﺣﻷﺍ</color> .ﻯﺮﺴﻴﻟﺍ ﻙﺪﻴﺑ
+
+.ﺀﺪﺒﻠﻟ ﺕﺎﻘﻠﺤﻟﺍ ﻩﺬﻫ ﻲﻓ ﻦﻴﻔﻴﺴﻟﺍ ﻼﻛ ﻊﺿ",,,,,,,,,,,,,,,,,"站在标记的区域内。
+
+右手紧握<color=#00C0FF>蓝色</color>光刃
+左手紧握<color=#FF0000>红色</color>光刃。
+
+将两把光刃放入环内即可开始。",,,,,,,,,,
+FLOOR_ADJUST_HELP_CONTENT,,.ﺔﻴﻘﻴﻘﺤﻟﺍ ﻚﺘﻴﺿﺭﺃ ﻊﻣ ﺐﺳﺎﻨﺘﺗ ﺎﻬﻠﻌﺠﺗ ﻥﺃ ﻝﻭﺎﺣ .ﺔﻴﺿﺭﻷﺍ ﻊﺿﻭ ﻂﺒﺿ ﻚﻨﻜﻤﻳ ﺎﻨﻫ,,,,,,,,,,,,,,,,,你可以在这里调整地面的位置。尽量匹配真实地面。,,,,,,,,,,
+FLOOR_ADJUST_HEIGHT_FROM_FLOOR,,ﺽﺭﻷﺍ ﻦﻣ ﻚﻟﻮﻃ,,,,,,,,,,,,,,,,,从地面算起你的高度,,,,,,,,,,
+MODIFIER_BATTERY_ENERGY,,ﺔﻳﺭﺎﻄﺒﻟﺍ ﺔﻗﺎﻃ,,,,,,,,,,,,,,,,,电池电量,,,,,,,,,,
+MODIFIER_BATTERY_ENERGY_HINT,,.ﺀﺎﻄﺧﻷﺍ ﻦﻣ ﺖﺑﺎﺛ ﺩﺪﻋ ﺏﺎﻜﺗﺭﺍ ﻚﻨﻜﻤﻳ,,,,,,,,,,,,,,,,,你的容错率有限。,,,,,,,,,,
+MODIFIER_NO_FAIL,,ﻞﺸﻓ ﻥﻭﺪﺑ,,,,,,,,,,,,,,,,,不能失误,,,,,,,,,,
+MODIFIER_NO_FAIL_HINT,,".ﻚﻳﺪﻟ ﺔﻗﺎﻄﻟﺍ ﻂﻳﺮﺷ ﺩﺎﻔﻨﺘﺳﺍ ﻰﻟﺇ ﻚﺳﺃﺮﺑ ﺕﺎﺒﻘﻌﻟﺍ ﺏﺮﺿ ﻭﺃ ﺀﺎﻄﺧﻷﺍ ﻭﺃ ﺊﻴﺴﻟﺍ ﻊﻄﻘﻟﺍ ﻱﺩﺆﻳ ﻦﻟ",,,,,,,,,,,,,,,,,勉强击中、漏过或者头撞到障碍都会消耗能量条。,,,,,,,,,,
+MODIFIER_NO_OBSTACLES,,ﺕﺎﺒﻘﻋ ﻥﻭﺪﺑ,,,,,,,,,,,,,,,,,没有障碍,,,,,,,,,,
+MODIFIER_NO_OBSTACLES_HINT,,.ﻯﻮﺘﺴﻤﻟﺍ ﻲﻓ ﺕﺎﺒﻘﻋ ﻙﺎﻨﻫ ﻥﻮﻜﺗ ﻦﻟ,,,,,,,,,,,,,,,,,关卡里不会出现障碍。,,,,,,,,,,
+MODIFIER_DISAPPEARING_ARROWS,,ﻢﻬﺳﻷﺍ ﺀﺎﻔﺘﺧﺇ,,,,,,,,,,,,,,,,,无形箭头,,,,,,,,,,
+MODIFIER_DISAPPEARING_ARROWS_HINT,,ﻦﻣ ﻢﻬﺳﻷﺍ ﻲﻔﺘﺨﺘﺳ <br> .ﻚﻴﻟﺇ ﻞﺼﺗ ﻥﺃ ﻞﺒﻗ ﺕﺎﺒﻌﻜﻤﻟﺍ,,,,,,,,,,,,,,,,,方块上的箭头在接近你时会消失。,,,,,,,,,,
+MODIFIER_FASTER_SONG,,ﻪﻌﻳﺮﺳ ﺔﻴﻨﻏﺃ,,,,,,,,,,,,,,,,,节拍加快,,,,,,,,,,
+MODIFIER_FASTER_SONG_HINT,,.ﺔﻋﺮﺴﺑ ﻞﻤﻌﺘﺳ ﺔﻴﻨﻏﻷﺍ.,,,,,,,,,,,,,,,,,歌曲播放速度更快。,,,,,,,,,,
+MODIFIER_GHOST_NOTES,,ﻪﻴﻔﺨﻣ ﺕﺎﺗﻮﻧ,,,,,,,,,,,,,,,,,隐藏音符,,,,,,,,,,
+MODIFIER_GHOST_NOTES_HINT,,ﺔﻴﺋﺮﻣ ﺮﻴﻏ ﺕﺎﺗﻮﻧ <br> .ﻚﻴﻟﺇ ﻞﺼﺗ ﻥﺃ ﻞﺒﻗ ﻢﻬﺳﻷﺍ ﻲﻔﺘﺨﺘﺳﻭ,,,,,,,,,,,,,,,,,方块隐形，且箭头在接近你时会消失。,,,,,,,,,,
+MODIFIER_INSTA_FAIL,,.ﻱﺭﻮﻓ ﻞﺸﻓ,,,,,,,,,,,,,,,,,瞬间判负,,,,,,,,,,
+MODIFIER_INSTA_FAIL_HINT,,.ﻱﺭﻮﻔﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ ﻞﺸﻓ ﻰﻟﺇ ﻱﺩﺆﻴﺳ ﺄﻄﺧ ﻞﻛ,,,,,,,,,,,,,,,,,每个失误都会导致通关失败。,,,,,,,,,,
+MODIFIER_NO_ARROWS,,ﻢﻬﺳﺃ ﻥﻭﺪﺑ,,,,,,,,,,,,,,,,,没有箭头,,,,,,,,,,
+MODIFIER_NO_ARROWS_HINT,,.ﻩﺎﺠﺗﺍ ﻱﺃ ﻲﻓ ﺕﺎﺒﻌﻜﻤﻟﺍ ﻊﻴﻤﺟ ﻊﻄﻗ ﻚﻨﻜﻤﻳ,,,,,,,,,,,,,,,,,你可以沿着任意方向来削砍方块。,,,,,,,,,,
+MODIFIER_NO_BOMBS,,ﻞﺑﺎﻨﻗ ﻥﻭﺪﺑ,,,,,,,,,,,,,,,,,没有炸弹,,,,,,,,,,
+MODIFIER_NO_BOMBS_HINT,,.ﻯﻮﺘﺴﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﻞﺑﺎﻨﻗ ﺪﺟﻮﻳ ﻻ,,,,,,,,,,,,,,,,,关卡里不会出现炸弹。,,,,,,,,,,
+MODIFIER_PRO_MODE,,ﻦﻴﻓﺮﺘﺤﻤﻟﺍ ﻂﻤﻧ,,,,,,,,,,,,,,,,,专业模式,,,,,,,,,,
+MODIFIER_PRO_MODE_HINT,,.ﺕﺎﺒﻌﻜﻤﻟﺍ ﻊﻄﻗ ﻲﻓ ﺢﻣﺎﺴﺗ ﺪﺟﻮﻳ ﻻ,,,,,,,,,,,,,,,,,削砍方块没有误差范围。,,,,,,,,,,
+MODIFIER_SLOWER_SONG,,ﺔﺌﻴﻄﺑ ﺔﻴﻨﻏﺃ,,,,,,,,,,,,,,,,,节奏放慢,,,,,,,,,,
+MODIFIER_SLOWER_SONG_HINT,,.ﺊﻄﺒﺑ ﻞﻤﻌﺘﺳ ﺔﻴﻨﻏﻷﺍ.,,,,,,,,,,,,,,,,,歌曲播放速度更慢。,,,,,,,,,,
+MODIFIER_STRICT_ANGLES,,Strict Angles,,,,,,,,,,,,,,,,,严格角度,,,,,,,,,,
+MODIFIER_STRICT_ANGLES_HINT,,.ﺪﻴﺟ ﻪﻧﺃ ﻰﻠﻋ ﺕﺎﺗﻮﻨﻠﻟ ﻦﻘﺘﻤﻟﺍ ﻊﻄﻘﻟﺍ ﻢﻴﻴﻘﺗ ﻢﺘﻴﺳ,,,,,,,,,,,,,,,,,只有相当精确的削砍才算做精准。,,,,,,,,,,
+MODIFIER_SUPER_FAST_NOTES,,ﺔﻋﺮﺴﻟﺍ ﺔﻘﺋﺎﻓ ﺕﺎﺗﻮﻧ,,,,,,,,,,,,,,,,,超快音符,,,,,,,,,,
+MODIFIER_SUPER_FAST_NOTES_HINT,,.ﺔﻘﺋﺎﻓ ﺔﻋﺮﺴﺑ ﺕﺎﺒﻌﻜﻤﻟﺍ ﻙﺮﺤﺘﺘﺳ,,,,,,,,,,,,,,,,,方块移动得超级快。,,,,,,,,,,
+MODIFIERS_TOTAL_MULTIPLIER,,ﻦﻴﺒﻋﻼﻟﺍ ﻉﻮﻤﺠﻣ,,,,,,,,,,,,,,,,,总系数,,,,,,,,,,
+MODIFIERS_MAX_RANK_WITH_MODIFIERS,,ﺔﻴﻟﺎﺤﻟﺍ ﺕﺎﻓﺎﺿﺇ ﻊﻣ ﺐﺗﺍﺮﻤﻟﺍ ﻰﻠﻋﺍ,,,,,,,,,,,,,,,,,当前模组使用者的最高排名,,,,,,,,,,
+STEAM_BOUGHT_CONTENT_INFO,,"ﻦﻜﻟﻭ ،ﻯﻮﺘﺤﻤﻟﺍ ﺍﺬﻫ ﺖﻳﺮﺘﺷﺍ ﺪﻗ ﺖﻨﻛ ﺍﺫﺇ<br>ﻖﻘﺤﺘﻟﺍﻭ ﻢﻴﺘﺳ ﺢﺘﻓ ﻰﺟﺮﻴﻓ ،ﺎﻨﻫ ﻩﺍﺮﺗ ﻻ<br>.ﺢﻴﺤﺻ ﻞﻜﺸﺑ ﻪﻠﻳﺰﻨﺗ ﻢﺗ ﺪﻗ ﻥﺎﻛ ﺍﺫﺇ ﺎﻤﻣ",,,,,,,,,,,,,,,,,如果你购买本内容，但是没在此处看到，请检查确认Steam是否已正常下载。,,,,,,,,,,
+STATUS_DOWNLOADING,,ﻞﻴﻤﺤﺗ,,,,,,,,,,,,,,,,,正在下载,,,,,,,,,,
+STATUS_ERROR_GETTING_DATA,,.ﺕﺎﻧﺎﻴﺒﻟﺍ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻲﻓ ﺄﻄﺧ,,,,,,,,,,,,,,,,,获取数据错误,,,,,,,,,,
+MENU_GRAPHICS,,ﺕﺎﻣﻮﺳﺮﻟﺍ,,,,,,,,,,,,,,,,,图像,,,,,,,,,,
+MENU_ADVANCED_GRAPHICS,,ﺔﻣﺪﻘﺘﻤﻟﺍ ﺕﺎﻣﻮﺳﺮﻟﺍ,,,,,,,,,,,,,,,,,高级图像,,,,,,,,,,
+MENU_ROOM_ADJUST,,ﺔﻓﺮﻐﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ,,,,,,,,,,,,,,,,,空间校准,,,,,,,,,,
+MENU_SMOOTH_CAMERA,,ﺔﻴﺑﺎﻴﺴﻧﺃ ﺍﺮﻴﻣﺎﻛ,,,,,,,,,,,,,,,,,平滑摄像头,,,,,,,,,,
+MENU_OTHERS,,ﻯﺮﺧﺃ,,,,,,,,,,,,,,,,,其他,,,,,,,,,,
+SETTINGS_MIRROR_QUALITY,,ﺓﺁﺮﻤﻟﺍ ﺱﺎﻜﻌﻧﺍ ﺮﻴﺛﺄﺗ,,,,,,,,,,,,,,,,,镜面反射效果,,,,,,,,,,
+SETTINGS_SMOKE,,ﻥﺎﺧﺩ,,,,,,,,,,,,,,,,,烟雾效果,,,,,,,,,,
+SETTINGS_BLOOM_FOG_QUALITY,,ﺔﺤﺿﺍﻭ ﺮﻴﻏ ﻭﺍ ﺔﻔﻴﻌﺿ ﺓﺩﻮﺟ,,,,,,,,,,,,,,,,,烟雾辉光效果,,,,,,,,,,
+SETTINGS_BLOOM_POST_PROCESS,,ﻞﻴﻠﻈﺘﻟﺍ ﺮﻴﺛﺄﺗ ﺔﻴﻠﻤﻋ ﺰﻴﻛﺮﺗ,,,,,,,,,,,,,,,,,辉光处理效果,,,,,,,,,,
+SETTINGS_ROOM_X_OFFSET,,X ﻪﺣﺍﺯﺍ,,,,,,,,,,,,,,,,,X 轴偏移量,,,,,,,,,,
+SETTINGS_ROOM_Y_OFFSET,,Y ﻪﺣﺍﺯﺍ,,,,,,,,,,,,,,,,,Y 轴偏移量,,,,,,,,,,
+SETTINGS_ROOM_Z_OFFSET,,Z ﻪﺣﺍﺯﺍ,,,,,,,,,,,,,,,,,Z 轴偏移量,,,,,,,,,,
+SETTINGS_ROOM_ROTATION,,ﻥﺍﺭﻭﺩ,,,,,,,,,,,,,,,,,旋转,,,,,,,,,,
+SETTINGS_NON_VR_RESOLUTION,,ﻲﺿﺍﺮﺘﻔﻟﺍ ﻊﻗﺍﻮﻠﻟ ﺽﺮﻌﻟﺍ ﺔﻗﺩ,,,,,,,,,,,,,,,,,非 VR 分辨率,,,,,,,,,,
+SETTINGS_FULLSCREEN,,ﺔﻠﻣﺎﻛ ﺔﺷﺎﺷ,,,,,,,,,,,,,,,,,全屏,,,,,,,,,,
+SETTINGS_RENDERING_SCALE,,ﺀﺍﺩﻷﺍ ﺱﺎﻴﻗ,,,,,,,,,,,,,,,,,渲染级别,,,,,,,,,,
+SETTINGS_ANTIALIASING_MSAA,,(MSAA)ﻑﺍﻮﺤﻟﺍ,,,,,,,,,,,,,,,,,抗锯齿,,,,,,,,,,
+SETTINGS_VOLUME,,ﺕﻮﺼﻟﺍ,,,,,,,,,,,,,,,,,音量,,,,,,,,,,
+SETTINGS_PAUSE_PRESS_DURATION,, ﻂﻐﻀﻟﺍ ﺓﺪﻣ ﻑﺎﻘﻳﺇ,,,,,,,,,,,,,,,,,长按暂停所需时长,,,,,,,,,,
+SETTINGS_SMOOTH_CAMERA,,ﺍﺮﻴﻣﺎﻜﻟﺍ ﺔﻴﺑﺎﻴﺴﻧﺃ,,,,,,,,,,,,,,,,,平滑摄像头,,,,,,,,,,
+SETTINGS_ONLINE_SERVICES,,ﻦﻳﻻ ﻥﻭﻷﺍ ﺕﺎﻣﺪﺧ ﻞﻴﻌﻔﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SETTINGS_SMOOTH_CAMERA_INFO,,"ﺢﻄﺴﻟ ﺮﺒﻴﺳ ﺖﻴﺑ ﺓﺬﻓﺎﻧ ﻝﺍﺪﺒﺘﺳﺍ ﻰﻟﺇ ﺓﺰﻴﻤﻟﺍ ﻩﺬﻫ ﻦﻴﻜﻤﺗ ﻱﺩﺆﻴﺳ <br> ﺚﺒﻟﺍﻭ ﻞﻴﺠﺴﺘﻠﻟ ﺐﺳﺎﻨﻣﻭ ﺺﺼﺨﻣﻭ ﺲﻠﺳ ﺔﻳﺅﺭ ﻝﺎﺠﻤﺑ ﺐﺘﻜﻤﻟﺍ <br> ﺮﺷﺎﺒﻤﻟﺍ",,,,,,,,,,,,,,,,,开启此功能会将《节奏空间》桌面窗口变成更平滑的定制视野，适合录制或直播,,,,,,,,,,
+SETTINGS_SMOOTH_CAMERA_WARNING,,ﺾﻌﺑ ﻲﻓ ﺎﺌﻴﺳ ﺀﺍﺩﺃ ﺐﺒﺴﺗ ﻥﺃ ﻦﻜﻤﻳﻭ ﻦﻤﺜﻟﺍ ﺔﻈﻫﺎﺑ ﺔﻴﺑﺎﻴﺴﻧﺃ ﺍﺮﻴﻣﺎﻜﻟﺍ<br>.ﺓﺰﻬﺟﻷﺍ ﺕﺎﻨﻳﻮﻜﺗ,,,,,,,,,,,,,,,,,平滑摄像头很耗资源，在某些硬件配置下可能导致效果不佳。 ,,,,,,,,,,
+SETTINGS_FIELD_OF_VIEW,,ﺪﻌﺒﻟﺍ ﺽﺮﻋ,,,,,,,,,,,,,,,,,视野,,,,,,,,,,
+SETTINGS_SMOOTHNESS,,ﺔﻣﻮﻌﻧ,,,,,,,,,,,,,,,,,平滑度,,,,,,,,,,
+SETTINGS_ON,,ﻞﻴﻐﺸﺗ,,,,,,,,,,,,,,,,,开,,,,,,,,,,
+SETTINGS_OFF,,ﻑﺎﻘﻳﺇ,,,,,,,,,,,,,,,,,关,,,,,,,,,,
+SETTINGS_LOW,,ﺾﻔﺨﻨﻣ,,,,,,,,,,,,,,,,,低,,,,,,,,,,
+SETTINGS_HIGH,,ﻊﻔﺗﺮﻣ,,,,,,,,,,,,,,,,,高,,,,,,,,,,
+SETTINGS_INSTANT,,Instant,,,,,,,,,,,,,,,,,快速,,,,,,,,,,
+SETTINGS_LONG,,Long,,,,,,,,,,,,,,,,,长期,,,,,,,,,,
+DIFFICULTY_EASY,,ﻞﻬﺳ,,,,,,,,,,,,,,,,,简单,,,,,,,,,,
+DIFFICULTY_EASY_SHORT,,E,,,,,,,,,,,,,,,,,简单,,,,,,,,,,
+DIFFICULTY_NORMAL,,ﻱﺩﺎﻋ,,,,,,,,,,,,,,,,,普通,,,,,,,,,,
+DIFFICULTY_NORMAL_SHORT,,N,,,,,,,,,,,,,,,,,普通,,,,,,,,,,
+DIFFICULTY_HARD,,ﺐﻌﺻ,,,,,,,,,,,,,,,,,困难,,,,,,,,,,
+DIFFICULTY_HARD_SHORT,,H,,,,,,,,,,,,,,,,,困难,,,,,,,,,,
+DIFFICULTY_EXPERT,,ﺮﻴﺒﺧ,,,,,,,,,,,,,,,,,专家,,,,,,,,,,
+DIFFICULTY_EXPERT_SHORT,,X,,,,,,,,,,,,,,,,,专家,,,,,,,,,,
+DIFFICULTY_EXPERT_PLUS,,+ ﺮﻴﺒﺧ,,,,,,,,,,,,,,,,,专家+,,,,,,,,,,
+DIFFICULTY_EXPERT_PLUS_SHORT,,X+,,,,,,,,,,,,,,,,,专家+,,,,,,,,,,
+DIFFICULTY_UNKNOWN,,ﻝﻮﻬﺠﻣ,,,,,,,,,,,,,,,,,未知,,,,,,,,,,
+DIFFICULTY_UNKNOWN_SHORT,,/,,,,,,,,,,,,,,,,,/,,,,,,,,,,
+STAGE_LOCK_HINT,,.ﺰﺟﺎﺤﻟﺍ ﺍﺬﻫ ﻞﺒﻗ ﺕﺎﻳﻮﺘﺴﻤﻟﺍ ﺾﻌﺑ ﺀﺎﻬﻧﺇ ﻚﻴﻠﻋ ﺔﻌﺑﺎﺘﻤﻠﻟ,,,,,,,,,,,,,,,,,在此关卡之前，你必须完成一些关卡才能继续。,,,,,,,,,,
+CAMPAIGN_MISSION,,ﻪﻤﻬﻣ,,,,,,,,,,,,,,,,,任务,,,,,,,,,,
+CAMPAIGN_SONG,,"ﺔﻴﻨﻏﺃ
+<color=#ffffff88>{0}</color>",,,,,,,,,,,,,,,,,"歌曲
+<color=#ffffff88>{0}</color>",,,,,,,,,,
+CAMPAIGN_DIFFICULTY,,"ﺔﺑﻮﻌﺻ
+<color=#ffffff88>{0}</color>",,,,,,,,,,,,,,,,,"难度
+<color=#ffffff88>{0}</color>",,,,,,,,,,
+CAMPAIGN_TYPE,,"ﻉﻮﻧ
+<color=#ffffff88>{0}</color>",,,,,,,,,,,,,,,,,"类型
+<color=#ffffff88>{0}</color>",,,,,,,,,,
+CAMPAIGN_MISSION_COMPLETE,,ﻪﻠﻤﺘﻜﻣ ﺔﻤﻬﻣ,,,,,,,,,,,,,,,,,任务完成,,,,,,,,,,
+CAMPAIGN_MISSION_FAILED,,ﺔﻤﻬﻤﻟﺍ ﻞﺸﻓ,,,,,,,,,,,,,,,,,任务失败,,,,,,,,,,
+CAMPAIGN_MODIFIERS,,ﺕﺎﻓﺎﺿﺇ,,,,,,,,,,,,,,,,,模组使用者,,,,,,,,,,
+CAMPAIGN_OBJECTIVES,,ﻑﺍﺪﻫﻷﺍ,,,,,,,,,,,,,,,,,目标,,,,,,,,,,
+CAMPAIGN_CHARACTERISTIC,,ﻩﺰﻴﻤﻣ,,,,,,,,,,,,,,,,,特征,,,,,,,,,,
+CAMPAIGN_FINISH_LEVEL,,"ﺀﺎﻬﻧﺇ
+ﻯﻮﺘﺴﻤﻟﺍ",,,,,,,,,,,,,,,,,"完成
+关卡",,,,,,,,,,
+LEVEL_NO_ARROWS,,ﻢﻬﺳﺃ ﺪﺟﻮﻳ ﻻ,,,,,,,,,,,,,,,,,没有箭头,,,,,,,,,,
+LEVEL_NO_ARROWS_HINT,,ﻢﻬﺳﺃ ﺪﺟﻮﻳ ﻻ,,,,,,,,,,,,,,,,,没有箭头,,,,,,,,,,
+LEVEL_ONE_SABER,,ﺪﺣﺍﻭ ﻒﻴﺳ,,,,,,,,,,,,,,,,,一把光刃,,,,,,,,,,
+LEVEL_ONE_SABER_HINT,,ﺪﺣﺍﻭ ﻒﻴﺳ,,,,,,,,,,,,,,,,,一把光刃,,,,,,,,,,
+LEVEL_STANDARD,,ﻲﺳﺎﺳﺍ,,,,,,,,,,,,,,,,,标准,,,,,,,,,,
+LEVEL_STANDARD_HINT,,ﻲﺳﺎﺳﺍ,,,,,,,,,,,,,,,,,标准,,,,,,,,,,
+PROMPT_INFORMATION,,ﺕﺎﻣﻮﻠﻌﻣ,,,,,,,,,,,,,,,,,信息,,,,,,,,,,
+PROMPT_HAVENT_PLAYED_YET,,؟ﻻﻭﺃ ﺐﻳﺭﺪﺘﻟﺍ ﺐﻌﻟ ﻲﻓ ﺐﻏﺮﺗ ﻞﻫ .ﺪﻌﺑ ﺮﺒﻴﺳ ﺖﻴﺑ ﺐﻌﻠﺗ ﻢﻟ ﻚﻧﺃ ﻭﺪﺒﻳ,,,,,,,,,,,,,,,,,看起来你以前没玩过《节奏空间》。你要先玩玩教程吗？,,,,,,,,,,
+PROMPT_YES,,ﻢﻌﻧ,,,,,,,,,,,,,,,,,是,,,,,,,,,,
+PROMPT_NO,,ﻻ,,,,,,,,,,,,,,,,,否,,,,,,,,,,
+RESULTS_LEVEL_FAILED,,ﻯﻮﺘﺴﻤﻟﺍ ﻞﺸﻓ,,,,,,,,,,,,,,,,,通关失败,,,,,,,,,,
+OBJECTIVE_BAD_CUTS,,ﺊﻴﺳ ﻊﻄﻗ,,,,,,,,,,,,,,,,,勉强击中,,,,,,,,,,
+OBJECTIVE_COMBO,,ﺕﺎﺑﺮﺿ,,,,,,,,,,,,,,,,,连击,,,,,,,,,,
+OBJECTIVE_FULL_COMBO,,ﺔﻴﻟﺎﺘﺘﻣ ﺕﺎﺑﺮﺿ,,,,,,,,,,,,,,,,,全连击,,,,,,,,,,
+OBJECTIVE_HANDS_MOVEMENT,,ﻦﻳﺪﻴﻟﺍ ﺔﻛﺮﺣ,,,,,,,,,,,,,,,,,双手移动,,,,,,,,,,
+OBJECTIVE_MISS,,ﻕﺎﻔﺧﺇ,,,,,,,,,,,,,,,,,错失,,,,,,,,,,
+OBJECTIVE_SCORE,,ﻁﺎﻘﻧ,,,,,,,,,,,,,,,,,得分,,,,,,,,,,
+MISSION_NEW_OBJECTIVE_TITLE,,ﺪﻳﺪﺟ ﻑﺪﻫ,,,,,,,,,,,,,,,,,新目标,,,,,,,,,,
+MISSION_HELP_MIN_SCORE_TITLE,,.ﺩﺪﺤﻤﻟﺍ ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ ﻦﻣ ﻰﻠﻋﺃ ﻚﺘﺟﺭﺩ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ ﺔﻤﻬﻤﻟﺍ ﻩﺬﻫ ﻲﻓ,,,,,,,,,,,,,,,,,在此任务中，你的分数必须高于设定的最低值。,,,,,,,,,,
+MISSION_HELP_MAX_BAD_CUTS_TITLE,,ﺀﺎﻄﺧﻷﺍ ﻦﻣ ﺩﻭﺪﺤﻣ ﺩﺪﻋ ﻯﻮﺳ ﺏﺎﻜﺗﺭﺍ ﻚﻨﻜﻤﻳ ﻻ ، ﺔﻤﻬﻤﻟﺍ ﻩﺬﻫ ﻲﻓ (<color=#ffffff88>ﺊﻴﺳ ﻊﻄﻗ</color> ﻭ <color=#ffffff88>ﺔﺘﺋﺎﻔﻟﺍ</color> ﺕﺎﺗﻮﻧ),,,,,,,,,,,,,,,,,在此任务中，你能犯错误的次数十分有限（<color=#ffffff88>勉强击中</color>和<color=#ffffff88>漏过</color>音符）,,,,,,,,,,
+MISSION_HELP_MIN_COMBO_TITLE,,ﻞﺼﺗ ﻥﺃ ﺐﺠﻳ ﺔﻤﻬﻤﻟﺍ ﻩﺬﻫ ﻲﻓ <color=#ffffff88>ﺕﺎﺑﺮﺿ</color> .ﺩﺪﺤﻤﻟﺍ ﻢﻗﺮﻟﺍ ﻰﻟﺇ,,,,,,,,,,,,,,,,,在此任务中，你必须达到特定的<color=#ffffff88>连击</color>数量。,,,,,,,,,,
+MISSION_HELP_MIN_HANDS_MOVEMENT_TITLE,,ﻚﻳﺮﺤﺗ ﻮﻫ ﻚﻓﺪﻫ ﺔﻤﻬﻤﻟﺍ ﻩﺬﻫ ﻲﻓ <color=#FFFFFF88>ﻚﻳﺪﻳ</color> ﻊﻄﻘﻟ ﻲﻔﻜﻳ ﺎﻤﺑ <color=#FFFFFF88>.ﺓﺩﺪﺤﻤﻟﺍ ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ ﺔﻓﺎﺴﻣ</color>,,,,,,,,,,,,,,,,,在此任务中，你的目标是让<color=#FFFFFF88>双手</color>的移动距离超过<color=#FFFFFF88>特定的最小距离。</color>,,,,,,,,,,
+MISSION_HELP_MAX_HANDS_MOVEMENT_DESCRIPTION,,.ﻥﺎﻜﻣﻹﺍ ﺭﺪﻗ ﻚﺘﻛﺮﺣ ﻦﻣ ﺪﺤﻟﺍ ﻝﻭﺎﺣ,,,,,,,,,,,,,,,,,.ﻥﺎﻜﻣﻹﺍ ﺭﺪﻗ ﻚﺘﻛﺮﺣ ﻦﻣ ﺪﺤﻟﺍ ﻝﻭﺎﺣ.,,,,,,,,,,
+MISSION_HELP_MAX_HANDS_MOVEMENT,,ﻙﺎﻨﻫ .ﺹﺎﺧ ﻑﺪﻬﻟﺍ ﺍﺬﻫ <color=#FFFFFF88>ﻯﻮﺼﻗ ﺔﻓﺎﺴﻣ</color> ﺎﻬﻜﻳﺮﺤﺗ ﻚﻨﻜﻤﻳ <color=#FFFFFF88>.ﻚﻳﺪﻴﺑ</color>,,,,,,,,,,,,,,,,,ﻙﺎﻨﻫ .ﺹﺎﺧ ﻑﺪﻬﻟﺍ ﺍﺬﻫ <color=#FFFFFF88>ﻯﻮﺼﻗ ﺔﻓﺎﺴﻣ</color> ﺎﻬﻜﻳﺮﺤﺗ ﻚﻨﻜﻤﻳ <color=#FFFFFF88>.ﻚﻳﺪﻴﺑ</color>,,,,,,,,,,
+MISSION_HELP_MIN_HANDS_MOVEMENT_DESCRIPTION,,ﻻ .ﺍﺮﻴﺜﻛ ﻚﻳﺪﻴﺑ ﻙﺮﺤﺘﻟﺍ ﻰﻟﺇ ﺓﺩﺎﻋ ﺝﺎﺘﺤﺗ ﻑﺪﻬﻟﺍ ﺍﺬﻫ ﻝﺎﻤﻛﻹ ﻡﺪﺨﺘﺴﺗ .ﻞﻣﺎﻜﻟﺎﺑ ﻚﻴَﻋﺍﺭﺫ ﻞﺑ ﻂﻘﻓ ﻚﻴﻤﺼﻌﻣ,,,,,,,,,,,,,,,,,要完成此目标，你通常需要大幅度移动双手。不要仅甩动手腕，要摆动手臂。,,,,,,,,,,
+MISSION_HELP_MAX_COMBO_TITLE,,ﻆﻔﺘﺤﺗ ﻥﺃ ﻚﻴﻠﻋ ﺔﻤﻬﻤﻟﺍ ﻩﺬﻫ ﻲﻓ <color=#FFFFFF88>ﺕﺎﺑﺮﺿ</color> .ﺩﺪﺤﻤﻟﺍ ﻢﻗﺮﻟﺍ ﻦﻣ ﻞﻗﺃ ﻚﺑ ﺹﺎﺨﻟﺍ,,,,,,,,,,,,,,,,,在此任务中，你必须将<color=#FFFFFF88>连击</color>保持在一个特定的数字之内。,,,,,,,,,,
+MISSION_HELP_MAX_COMBO_TITLE_DESCRIPTION,,ﺀﺎﻄﺧﺃ ﺏﺎﻜﺗﺭﺍ ﻲﻫ ﻑﺍﺪﻫﻷﺍ ﻦﻣ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ﻝﺎﻤﻛﻹ ﺓﺪﺣﺍﻭ ﺔﻘﻳﺮﻃ .ﺓﺪﻤﻌﺘﻣ,,,,,,,,,,,,,,,,,完成此类目标的方法是故意犯错。,,,,,,,,,,
+BUTTON_LEVEL_EDITOR,,ﻯﻮﺘﺴﻤﻟﺍ ﻞﻳﺪﻌﺗ,,,,,,,,,,,,,,,,,关卡编辑器,,,,,,,,,,
+SETTINGS_SCREEN_DISTORTION_EFFECTS,,ﺔﺷﺎﺸﻟﺍ ﻪﻳﻮﺸﺗ ﺕﺍﺮﻴﺛﺄﺗ,,,,,,,,,,,,,,,,,屏幕失真效果,,,,,,,,,,
+CUSTOM_LEVELS_LEADERBOARDS_NOT_SUPPORTED,,.ﺔﺼﺼﺨﻣ ﺕﺎﻳﻮﺘﺴﻤﻟ ﻦﻳﺭﺪﺼﺘﻤﻟﺍ ﺕﺎﺣﻮﻟ ﺩﺎﻤﺘﻋﺍ ﻢﺘﻳ ﻻ,,,,,,,,,,,,,,,,,不支持自定义排行榜,,,,,,,,,,
+TITLE_CUSTOM_LEVELS,,ﺺﺼﺨﻣ ﻯﻮﺘﺴﻣ,,,,,,,,,,,,,,,,,定制关卡,,,,,,,,,,
+SETTINGS_AUDIO,,ﺕﻮﺼﻟﺍ,,,,,,,,,,,,,,,,,声音延迟,,,,,,,,,,
+SETTINGS_AUDIO_LATENCY_INFO,,ﻡﺎﻈﻨﻟ ﻲﺗﻮﺼﻟﺍ ﺮﻴﺧﺄﺘﻟﺍ ﺾﻳﻮﻌﺗ ﻲﻓ ﺩﺍﺪﻋﻹﺍ ﺍﺬﻫ ﻙﺪﻋﺎﺴﻳ ﻥﺃ ﻦﻜﻤﻳ <br> ﺕﻮﺼﻟﺍ ﺔﻨﻣﺍﺰﻤﻠﻟ ﺔﺑﺎﺠﺘﺳﻻﺍ ﺖﻗﻭ ﺔﻤﻴﻗ ﻂﺒﺿﺍ .ﻚﻳﺪﻟ ﺕﻮﺼﻟﺍ<br> .ﺓﺮﻳﺎﻌﻤﻟﺍ ﻩﺬﻫ ﺀﺍﺮﺟﻹ ﺎﻤﺋﺍﺩ ﺱﺃﺮﻟﺍ ﺔﻋﺎﻤﺳ ﻡﺪﺨﺘﺳﺍ .ﻮﻳﺪﻴﻔﻟﺍ ﻊﻣ,,,,,,,,,,,,,,,,,该选项可以帮助你改善音效系统中的声音延迟问题。请调整延迟参数，来使得音画同步。在校正过程中，请始终保持戴着耳机。,,,,,,,,,,
+PLAYER_SETTINGS_AUTO_RESTART,,ﻞﺸﻔﻟﺍ ﺪﻨﻋ ﻲﺋﺎﻘﻠﺗ ﻪﻟﻭﺎﺤﻤﻟﺍ ﺓﺩﺎﻋﺇ,,,,,,,,,,,,,,,,,失败后自动重新开始,,,,,,,,,,
+SETTINGS_MAX_SHOCKWAVE_PARTICLES,,ﺔﺟﻮﻤﻟﺍ ﺕﺎﻤﻴﺴﺠﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ,,,,,,,,,,,,,,,,,最多冲击波粒子,,,,,,,,,,
+TITLE_NEW_HIGHSCORE,,ﺓﺪﻳﺪﺟ ﺔﻴﻟﺎﻋ ﺔﺟﺭﺩ,,,,,,,,,,,,,,,,,新高分,,,,,,,,,,
+STEAM_STORE_DOESNT_OPEN_HINT,,"ﺔﻟﻭﺎﺤﻣ ﻰﺟﺮﻳ ،ﺀﺍﺮﺸﻟﺍ ﺭﺯ ﻰﻠﻋ ﻂﻐﻀﻟﺍ ﺪﻌﺑ ﺮﺠﺘﻤﻟﺍ ﺓﺬﻓﺎﻧ ﺢﺘﻓ ﻢﺘﻳ ﻢﻟ ﺍﺫﺇ ﻥﻮﻔﺳﺁ ﻦﺤﻧ .ﻢﻴﺘﺳ ﻰﻠﻋ ﺓﺮﺷﺎﺒﻣ ﺪﻨﺒﻟﺍ ﺍﺬﻫ ﺀﺍﺮﺷ .ﺝﺎﻋﺯﻺﻟ",,,,,,,,,,,,,,,,,如果在按下购买按钮后商店窗口未打开，请尝试直接在Steam上购买此商品。我们对给您造成的不便表示抱歉。,,,,,,,,,,
+BUTTON_ENVIRONMENTS,,ﺔﺌﻴﺒﻟﺍ,,,,,,,,,,,,,,,,,环境,,,,,,,,,,
+BUTTON_COLORS,,ﻥﺍﻮﻟﻷﺍ,,,,,,,,,,,,,,,,,颜色,,,,,,,,,,
+BUTTON_LOGIN,,ﻝﻮﺧﺩ ﻞﻴﺠﺴﺗ,,,,,,,,,,,,,,,,,登录,,,,,,,,,,
+BUTTON_LOGOUT,,ﺝﻭﺮﺧ ﻞﻴﺠﺴﺗ,,,,,,,,,,,,,,,,,登出,,,,,,,,,,
+STATUS_CONNECTED,,ﻞﺼﺘﻣ,,,,,,,,,,,,,,,,,已连接,,,,,,,,,,
+STATUS_DISCONNECTED,,ﻞﺼﺘﻣ ﺮﻴﻏ,,,,,,,,,,,,,,,,,连接断开,,,,,,,,,,
+REQUIRES_INTERNET_INFO,,.ﻂﺸﻧ ﺖﻧﺮﺘﻧﺇ ﻝﺎﺼﺗﺍ ﺐﻠﻄﺘﻳ,,,,,,,,,,,,,,,,,需要有效的互联网连接,,,,,,,,,,
+PLAYER_HEIGHT_MEASURE_BUTTON_HOVER_HINT,,ﻥﺃ ﻦﻣ ﺪﻛﺄﺗﻭ ﺎﻤﻴﻘﺘﺴﻣ ﻒﻗ .ﻩﺩﺍﺪﻋﺇﻭ ﻚﻳﺪﻟ ﻲﻟﺎﺤﻟﺍ ﻚﻋﺎﻔﺗﺭﺍ ﻦﻴﻴﻌﺗﻭ ﺱﺎﻴﻗ .ﺔﺒﻌﻠﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ ﻲﻓ ﺢﻴﺤﺻ ﻞﻜﺸﺑ  ﺔﻴﺿﺭﻷﺍ ﺔﻴﻌﺿﻭ,,,,,,,,,,,,,,,,,设置您的游戏高度。站直并确保在游戏设置中正确配置了您的地板位置。,,,,,,,,,,
+NORMAL_ENVIRONMENT_TYPE,,ﺔﻳﺩﺎﻋ ﺔﺌﻴﺑ,,,,,,,,,,,,,,,,,普通环境,,,,,,,,,,
+CIRCLE_ENVIRONMENT_TYPE,,ﺔﻳﺮﺋﺍﺩ ﺔﺌﻴﺑ,,,,,,,,,,,,,,,,,360度环境,,,,,,,,,,
+OVERRIDE_ENVIRONMENTS_TOGGLE,,ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺕﺎﺌﻴﺒﻟﺍ ﺯﻭﺎﺠﺗ,,,,,,,,,,,,,,,,,覆盖默认环境,,,,,,,,,,
+OVERRIDE_COLORS_TOGGLE,,ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﻥﺍﻮﻟﻷﺍ ﺯﻭﺎﺠﺗ,,,,,,,,,,,,,,,,,覆盖默认颜色,,,,,,,,,,
+CUSTOM_COLORS_EDITING_HINT,,.ﻂﻘﻓ ﺔﺼﺼﺨﻤﻟﺍ ﻥﺍﻮﻟﻷﺍ ﺔﻤﻈﻧﺃ ﺮﻳﺮﺤﺗ ﻦﻜﻤﻳ,,,,,,,,,,,,,,,,,只能编辑自定义颜色方案,,,,,,,,,,
+PREVIOUS_COLOR_HINT,,ﻖﺑﺎﺴﻟﺍ ﻥﻮﻠﻟﺍ,,,,,,,,,,,,,,,,,前一个颜色,,,,,,,,,,
+SETTINGS_OVERRIDE_AUDIO_LATENCY,,ﺕﻮﺼﻟﺍ ﻝﺎﻘﺘﻧﺍ ﺮﻴﺧﺄﺘﻟﺍ,,,,,,,,,,,,,,,,,覆盖音频延迟,,,,,,,,,,
+LEADERBOARDS_LOADING_FAILED,,.ﺖﻧﺮﺘﻧﻹﺍ ﻝﺎﺼﺗﺍ ﻦﻣ ﻖﻘﺤﺘﻟﺍ ﻲﻓ ﺐﻏﺮﺗ ﺪﻗ .ﺎﻣ ﺄﻄﺧ ﺙﺪﺣ ﺍًﺭﺬﻋ,,,,,,,,,,,,,,,,,连接出现问题。您可能需要检查您的互联网连接,,,,,,,,,,
+LEADERBOARDS_NOT_AVAILABLE,,.ﺓﺮﻓﻮﺘﻣ ﺮﻴﻏ ﻦﻳﺭﺪﺼﺘﻤﻟﺍ\n.ﺪﻴﻘﻣ ﺖﻧﺮﺘﻧﻹﺍ ﺮﺒﻋ ﺕﺍﺰﻴﻤﻠﻟ ﻚﻣﺍﺪﺨﺘﺳﺍ ﻥﺃ ﻭﺃ ﻝﻮﺧﺪﻟﺍ ﻞﻴﺠﺴﺘﺑ ﻢﻘﺗ ﻢﻟ ﺎﻤﺑﺭ,,,,,,,,,,,,,,,,,排行榜不可用。\n您可能没有登录，或者在线功能的使用受到限制。,,,,,,,,,,
+LEVEL_SELECTION_BUTTON,,ﻯﻮﺘﺴﻣ ﺪﻳﺪﺤﺗ,,,,,,,,,,,,,,,,,选择关卡,,,,,,,,,,
+HOW_TO_PLAY_BUTTON,,ﺐﻌﻠﺗ ﻒﻴﻛ,,,,,,,,,,,,,,,,,游戏玩法,,,,,,,,,,
+LOGOUT_BUTTON,,ﺝﻭﺮﺨﻟﺍ ﻞﻴﺠﺴﺗ,,,,,,,,,,,,,,,,,登出,,,,,,,,,,
+PRIVACY_POLICY_BUTTON,,ﺔﻴﺻﻮﺼﺨﻟﺍ ﺔﻴﻗﺎﻔﺗﺃ,,,,,,,,,,,,,,,,,ﺔﻴﺻﻮﺼﺨﻟﺍ ﺔﻴﻗﺎﻔﺗﺃ,,,,,,,,,,
+PLAYER_SETTINGS_AUTOMATIC_PLAYER_HEIGHT,,ﺐﻋﻼﻟ ﻲﺋﺎﻘﻠﺗ ﻉﺎﻔﺗﺭﺍ,,,,,,,,,,,,,,,,,ﺐﻋﻼﻟ ﻲﺋﺎﻘﻠﺗ ﻉﺎﻔﺗﺭﺍ,,,,,,,,,,
+LEVEL_360DEGREE,,360 ﺔﺟﺭﺩ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEVEL_360DEGREE_HINT,,360 ﺔﺟﺭﺩ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEVEL_90DEGREE,,90 ﺔﺟﺭﺩ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEVEL_90DEGREE_HINT,,90 ﺔﺟﺭﺩ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_OPEN_MUSIC_PACK,,ﻰﻘﻴﺳﻮﻤﻟﺍ ﻡﻮﺒﻟﻷﺍ ﺢﺘﻓ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUY_VIEW_INFO_TEXT,,.ﻱﺩﺮﻓ ﻞﻜﺸﺑ ﻲﻧﺎﻏﻷﺍ ﻊﻴﻤﺟ ﺀﺍﺮﺷ ﻦﻣ ﺺﺧﺭﺃ ﺔﻠﻣﺎﻛ ﻰﻘﻴﺳﻮﻤﻟﺍ ﻡﻮﺒﻟﻷﺍ ﺀﺍﺮﺷ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ERROR_LOADING_DATA_NO_INTERNET_MESSAGE,,.ﻚﺑ ﺹﺎﺨﻟﺍ ﺖﻧﺮﺘﻧﻹﺍ ﻝﺎﺼﺗﺍ ﻦﻣ ﻖﻘﺤﺘﻟﺍ ﻲﻓ ﺐﻏﺮﺗ ﺪﻗ .ﺕﺎﻧﺎﻴﺒﻟﺍ ﻞﻴﻤﺤﺗ ﻲﻓ ﺄﻄﺧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ERROR_LOADING_DATA,,.ﺕﺎﻧﺎﻴﺒﻟﺍ ﻞﻴﻤﺤﺗ ﻲﻓ ﺄﻄﺧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DOWNLOADING,,ﻞﻴﻤﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREPARING_TO_DOWNLOAD,,ﻞﻴﻤﺤﺘﻠﻟ ﺮﻴﻀﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MUSIC_PACKS_TABBAR_TITLE,,ﻰﻘﻴﺳﻮﻤﻟﺍ ﻡﻮﺒﻟﻷﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYLISTS_TABBAR_TITLE,,ﻞﻴﻐﺸﺘﻟﺍ ﻢﺋﺍﻮﻗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+90_PLAYLIST_NAME,,ﺕﺎﻳﻮﺘﺴﻣ ﺕﺍﺫ ﻲﻧﺎﻏﺃ 90 ﺔﺟﺭﺩ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+360_PLAYLIST_NAME,,ﺕﺎﻳﻮﺘﺴﻣ ﺕﺍﺫ ﻲﻧﺎﻏﺃ 360 ﺔﺟﺭﺩ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ALL_SONGS_PLAYLIST_NAME,,ﻲﻧﺎﻏﻷﺍ ﻊﻴﻤﺟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+USER_PLAYLIST_NAME,,ﺔﻠﻀﻔﻤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+INFO_AVERAGE_NOTES_PER_SECOND,,ﺔﻴﻧﺎﺜﻟﺍ ﻲﻓ ﺕﺎﺗﻮﻧ ﻂﺳﻮﺘﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+INFO_SONG_DURATION,,ﺔﻴﻨﻏﻷﺍ ﺓﺪﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_SETTINGS_SFX_VOLUME,,ﺔﻴﺗﻮﺼﻟﺍ ﺕﺍﺮﺛﺆﻤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OST_&_EXTRA_TABBAR_TITLE,,ﺔﻴﻓﺎﺿﻹﺍ ﻭ ﺔﻴﻤﺳﺮﻟﺍ ﻰﻘﻴﺳﻮﻤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PROMPT_HAVENT_PLAYED_360_YET,,.ﺎﻴﻜﻠﺳﻻ ﻼﺣ ﻡﺪﺨﺘﺳﺍ ﻭﺃ ﻒﻘﺴﻟﺍ ﻦﻣ ﻞﺑﺎﻜﻟﺍ ﻖﻴﻠﻌﺘﺑ ﺎﻣﺇ ﻚﺤﺼﻨﻧ .ﺔﻳﺮﺤﺑ ﺭﻭﺪﺗ ﻥﺃ ﺔﺟﺭﺩ 360 ﺕﺎﻳﻮﺘﺴﻤﺑ ﺐﻌﻠﻟﺍ ﺐﻠﻄﺘﻳ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PROMPT_OK,,ﺎﻨﺴﺣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AGREE_TO_PRIVACY_POLICY_LABEL,,.ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻴﺻﻮﺼﺨﻟﺍ ﺔﺳﺎﻴﺳ ﻰﻠﻋ ﻖﻓﺍﻮﺗ ﺖﻧﺃ ،ﺔﻌﺑﺎﺘﻣ ﻕﻮﻓ ﺮﻘﻨﻟﺎﺑ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEADERBOARDS_NOT_INITIALIZED_ERROR,,.ﺔﺌﻴﻬﺗ ﻢﺘﻳ ﻢﻟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEADERBOARDS_SOMETHING_WENT_WRONG_ERROR,,.ﺎﻣ ﺄﻄﺧ ﺙﺪﺣ ﺍﺭﺬﻋ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEADERBOARDS_PLATFORM_SERVICES_ERROR,,".ﺓﺮﻓﻮﺘﻣ ﺮﻴﻏ ﻦﻳﺭﺪﺼﺘﻤﻟﺍ
+.ﺪﻴﻘﻣ ﺖﻧﺮﺘﻧﻹﺍ ﺮﺒﻋ ﺕﺍﺰﻴﻤﻠﻟ ﻚﻣﺍﺪﺨﺘﺳﺍ ﻥﺃ ﻭﺃ ﻝﻮﺧﺪﻟﺍ ﻞﻴﺠﺴﺘﺑ ﻢﻘﺗ ﻢﻟ ﻚﻧﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣ",,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEADERBOARDS_NO_MODIFIERS_TITLE,,ﺕﺎﻓﺎﺿﺇ ﻥﻭﺪﺑ ﻰﻠﻋﺃ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEADERBOARDS_MIXED_LEADERBOARDS_TITLE,,ﺔﻄﻠﺘﺨﻣ ﻰﻠﻋﺃ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EMPTY_FAVORITES_LIST_INFO,,"ﻰﻠﻋ ﻂﻐﺿﺍ ،ﺕﺎﻴﻨﻏﺃ ﻱﺃ ﻞﻴﻀﻔﺗ ﻢﺘﻳ ﻢﻟ<br>ﺔﻴﻨﻏﻷﺍ ﻢﺳﺍ ﺐﻧﺎﺠﺑ ﺔﻤﺠﻨﻟﺍ ﺔﻧﻮﻘﻳﺃ<br> .ﺕﻼﻀﻔﻤﻟﺍ ﻰﻟﺇ ﺎﻬﺘﻓﺎﺿﻹ",,,,,,,,,,,,,,,,,,,,,,,,,,,
+EULA_TITLE,,ﻡﺪﺨﺘﺴﻤﻟﺍ ﺺﻴﺧﺮﺗ ﺔﻴﻗﺎﻔﺗﺍ ﺔﻳﺎﻬﻧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PRIVACY_POLICY_TITLE,,ﺔﻴﺻﻮﺼﺨﻟﺍ ﺔﻴﻗﺎﻔﺗﺃ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ONLINE_SERVICES_TITLE,,ﻦﻳﻻ ﻥﻭﻷﺍ ﺕﺎﻣﺪﺧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DISABLE_ONLINE_SERVICES_WARNING_INFO,,؟ﻦﻳﻻ ﻥﻭﻷﺍ ﺕﺎﻣﺪﺨﻟﺍ ﻞﻴﻄﻌﺗ ًﺎﻘﺣ ﺪﻳﺮﺗ ﻞﻫ .ﻦﻳﺭﺪﺼﺘﻤﻟﺍ ﺕﺎﺣﻮﻟ ﻲﻓ ﻚﺗﺎﺟﺭﺩ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ﺎﻨﻣﺩﺍﻮﺧ ﻰﻠﻋ ﺔﻧﺰﺨﻤﻟﺍ ﺔﻴﺼﺨﺸﻟﺍ ﻚﺗﺎﻧﺎﻴﺑ ﻊﻴﻤﺟ ﺔﻟﺍﺯﺇ ﻢﺘﻴﺳ .ﻞﻤﻌﻟﺍ ﻦﻋ ﻒﻗﻮﺘﻟﺍ ﻦﻳﺭﺪﺼﺘﻤﻟﺍ ﻞﺜﻣ ﺔﻔﻴﻇﻭ ﻑﻮﺳ .ﻦﻳﻻ ﻥﻭﻷﺍ ﺕﺎﻣﺪﺨﻟﺍ ﻞﻴﻄﻌﺗ ﻚﺷﻭ ﻰﻠﻋ ﺖﻧﺃ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_WARNING,,ﺮﻳﺬﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_DISABLE_ONLINE_SERVICES,,ﻦﻳﻻ ﻥﻭﻷﺍ ﺕﺎﻣﺪﺧ ﻑﺎﻘﻳﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_ENABLE,,ﻞﻴﻌﻔﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_DONT_ENABLE,,ﻞﻴﻌﻔﺗ ﻡﺪﻋ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SETTINGS_ONLINE_SERVICES_INFO,,.ﻦﻳﺭﺪﺼﺘﻤﻟﺍ ﺕﺎﺣﻮﻟ ﺔﻔﻴﻇﻮﻟ ﺔﺑﻮﻠﻄﻣ ﻦﻳﻻ ﻥﻭﻷﺍ ﺮﺒﻋ ﺕﺎﻣﺪﺨﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SETTINGS_ONLINE_SERVICES_TOGGLE,,ﻪﻠﻌﻔﻣ ﻦﻳﻻ ﻥﻭﻷﺍ ﺕﺎﻣﺪﺧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ONLINE_SERVICES_OPTIN_INFO,,؟ﺖﻧﺮﺘﻧﻹﺍ ﺮﺒﻋ ﺕﺎﻣﺪﺨﻟﺍ ﻦﻴﻜﻤﺗ ﺪﻳﺮﺗ ﻞﻫ .ﻚﺗﺎﺟﺭﺩ ﻢﻳﺪﻘﺗﻭ ﻦﻴﺒﻋﻼﻟﺍ ﻞﻀﻓﺃ ﺭﺎﻬﻇﻹ ﺏﻮﻠﻄﻣ ﺍﺬﻫ .ﺖﻧﺮﺘﻧﻹﺍ ﺮﺒﻋ ﺎﻨﺗﺎﻣﺪﺧ ﻦﻴﻜﻤﺗ ﻰﻟﺇ ﺝﺎﺘﺤﺗ ﺎﻨﻳﺪﻟ ﻦﻳﺭﺪﺼﺘﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ ﻲﻓ ﺀﺪﺒﻟﺍ ﻞﺒﻗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EMPTY_CUSTOM_SONG_LIST_INFO,,.ﻪﺼﺼﺨﻣ ﻲﻧﺎﻏﺃ ﻚﻳﺪﻟ ﺪﺟﻮﻳ ﻻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MENU_CONTROLLERS_TRANSFORM,,ﻢﻜﺤﺘﻟﺍ ﺕﺍﺪﺣﻭ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_RESET,,Reset,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_POSITION_X,,X ﻊﺿﻮﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_POSITION_Y,,Y ﻊﺿﻮﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_POSITION_Z,,Z ﻊﺿﻮﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_ROTATION_X,,X ﻊﺿﻮﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_ROTATION_Y,,Y ﻊﺿﻮﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_ROTATION_Z,,Z ﻊﺿﻮﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MENU_OCULUS_MRC,,ﻂﻠﺘﺨﻤﻟﺍ ﻊﻗﺍﻮﻟﺍ ﻁﺎﻘﺘﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SETTINGS_OCULUS_MRC,,ﻂﻠﺘﺨﻤﻟﺍ ﻊﻗﺍﻮﻟﺍ ﻁﺎﻘﺘﻟﺍ (ﻲﺒﻳﺮﺠﺗ),,,,,,,,,,,,,,,,,,,,,,,,,,,
+SETTINGS_OCULUS_MRC_INFO,,".ﺎﺟﻭﺰﻤﻣ ﺪﺣﺍﻭ ﺪﻬﺸﻣ ﺀﺎﺸﻧﻹ ﻡﻮﻋﺪﻤﻟﺍ ﻂﻠﺘﺨﻤﻟﺍ ﻲﺿﺍﺮﺘﻓﻻﺍ ﻊﻗﺍﻮﻟﺍ ﻖﻴﺒﻄﺗ ﺔﻄﺳﺍﻮﺑ ﻩﺅﺎﺸﻧﺇ ﻢﺗ ﺪﻬﺸﻣ ﻊﻣ ﺎﻬﺠﻣﺩﻭ ،ﺀﺍﺮﻀﺧ ﺔﺷﺎﺷ ﻞﺑﺎﻘﻣ ،ﻲﻘﻴﻘﺤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﺭﻮﺻ ﻁﺎﻘﺘﻟﻻ ،ﺐﻳﻭ ﺍﺮﻴﻣﺎﻛ ﻞﺜﻣ ،ﺔﻴﺟﺭﺎﺧ ﺍﺮﻴﻣﺎﻛ ﻂﻠﺘﺨﻤﻟﺍ ﻊﻗﺍﻮﻟﺍ ﻁﺎﻘﺘﻟﺍ ﻡﺪﺨﺘﺴﻳ 
+
+Oculus. ﻖﺋﺎﺛﻭ ﻲﻓ ﺔﻄﻠﺘﺨﻤﻟﺍ ﺔﻘﻴﻘﺤﻟﺍ ﻁﺎﻘﺘﻟﺍ ﺩﺍﺪﻋﺇ ﻞﻴﻟﺩ ﻦﻋ ﺚﺤﺒﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ",,,,,,,,,,,,,,,,,,,,,,,,,,,
+SETTINGS_OCULUS_MRC_WARNING,," ﻦﺤﻧ .ﺊﻴﺳ ﺀﺍﺩﺃ ﻰﻟﺇ ﻱﺩﺆﺗ ﻥﺃ ﻦﻜﻤﻳﻭ ﺮﻳﻮﻄﺘﻟﺍ ﺪﻴﻗ ﻂﻠﺘﺨﻤﻟﺍ ﻊﻗﺍﻮﻟﺍ ﺔﻄﻘﻟ ﻖﻓﺪﺗ ﺮﻴﻐﺘﻳ ﺪﻗﻭ ، ﺔﺑﺮﺠﺘﻟﺍ ﻦﻴﺴﺤﺗ ﻲﻓ ﻥﻭﺮﻤﺘﺴﻣ .ﺩﺍﺪﻋﻹﺍ",,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_SETTINGS_SABER_TRAIL_INTENSITY,,ﺭﺎﺴﻤﻟﺍ ﺔﻓﺎﺜﻛ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYING_CAMPAIGN_PRESENCE,,ﺔﺼﻘﻟﺍ ﺐﻌﻠﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYING_TUTORIAL_PRESENCE,,ﺐﻳﺭﺪﺘﻟﺍ ﺐﻌﻠﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BROWSING_MENUS_PRESENCE,,ﺔﻤﺋﺎﻘﻟﺍ ﺽﺍﺮﻌﺘﺳﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEADERBOARDS_CURRENT_MODIFIERS_ONLY_TITLE,,ﻰﻠﻋﺃ (ﻂﻘﻓ ﺔﻴﻟﺎﺤﻟﺍ ﺕﺎﻓﺎﺿﺇ ﻊﻣ),,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_SERVER_NAME,,ﺮﻓﺮﻴﺴﻟﺍ ﻢﺳﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_PLAYER_COUNT,,ﻦﻴﺒﻋﻻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_SERVER_FILTER,,ﻪﻴﻔﺼﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_CREATE_SERVER,,ﺀﺎﺸﻧﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_INTERNET_SERVER_ORIGIN,,ﺖﻧﺮﺘﻧﻹﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_LOCAL_SERVER_ORIGIN,,ﻲﻠﺤﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_SERVER,,ﺮﻓﺮﻴﺴﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_PASSWORD_PROTECTED,,ﺭﻭﺮﻣ ﺔﻤﻠﻜﺑ ﻲﻤﺤﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_PASSWORD,,ﺮﺴﻟﺍ ﻪﻤﻠﻛ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_MAX_NUMBER_OF_PLAYERS,,ﻦﻴﺒﻋﻼﻟ ﺩﺪﻋ ﻰﺼﻗﺃ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_ALLOWED_DIFFICULTY,,ﺎﻬﺑ ﺡﻮﻤﺴﻤﻟﺍ ﺔﺑﻮﻌﺼﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_ALLOWED_MUSIC_PACKS,,ﺎﻬﺑ ﺡﻮﻤﺴﻤﻟﺍ ﻰﻘﻴﺳﻮﻤﻟﺍ ﻡﻮﺒﻟﻷﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_DISCOVERABLE_ON_INTERNET,,ﺖﻧﺮﺘﻧﻹﺍ ﻰﻠﻋ ﻑﺎﺸﺘﻛﻼﻟ ﻞﺑﺎﻗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_MULTIPLAYER,,ﻦﻳﻻ ﻥﻭﺃ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_CLOTHES,,ﺲﺑﻼﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ALL_LEVEL_PACKS,,ﻞﻜﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUILT_IN_LEVEL_PACKS,,ﺞﻣﺪﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BEATMAP_DIFFICULTY_ALL,,ﻞﻜﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_EDIT_AVATAR,,ﺔﻴﺼﺨﺸﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOBBY_START_GAME,,ﺔﻳﺍﺪﺑ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOBBY_SPECTATOR,,ﺪﻫﺎﺸﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOBBY_READY,,ﺰﻫﺎﺟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOBBY_SELECT_LEVEL,,ﻯﻮﺘﺴﻣ ﺪﻳﺪﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOBBY_SET_MODIFIERS,,ﺕﺎﻓﺎﺿﺇ ﻂﺒﺿ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_FILTER_BY_DIFFICULTY,,ﺔﺑﻮﻌﺼﻟﺍ ﺐﺴﺣ ﺔﻴﻔﺼﺘﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_DIFFICULTY,,ﺔﺑﻮﻌﺻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_FILTER_BY_MUSIC_PACKS,,ﻰﻘﻴﺳﻮﻤﻟﺍ ﻡﻮﺒﻟﻷﺍ ﺐﺴﺣ ﺔﻴﻔﺼﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_MUSIC_PACKS,,ﻰﻘﻴﺳﻮﻤﻟﺍ ﻡﻮﺒﻟﻷﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_FILTER_SHOW_FULL,,ﻞﻣﺎﻛ ﺽﺮﻋ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_FILTER_SHOW_PROTECTED,,ﺔﻴﻤﺤﻤﻟﺍ ﺭﺎﻬﻇﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_CONNECTION_ERROR,,ﻝﺎﺼﺗﻹﺍ ﻲﻓ ﺄﻄﺧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CONNECTION_FAILED_UNKNOWN,,.ﺮﻓﺮﻴﺴﻟﺎﺑ ﻝﺎﺼﺗﻻﺍ ﺭﺬﻌﺗ<br>ﻯﺮﺧﺃ ﺓﺮﻣ ﻝﻭﺎﺣﻭ ﺖﻧﺮﺘﻧﻹﺎﺑ ﻚﻟﺎﺼﺗﺍ ﻦﻣ ﻖﻘﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CONNECTION_FAILED_SERVER_UNREACHABLE,,.ﺮﻓﺮﻴﺴﻟﺎﺑ ﻝﺎﺼﺗﻻﺍ ﺭﺬﻌﺗ<br>ﻯﺮﺧﺃ ﺓﺮﻣ ﻝﻭﺎﺣﻭ ﺖﻧﺮﺘﻧﻹﺎﺑ ﻚﻟﺎﺼﺗﺍ ﻦﻣ ﻖﻘﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CONNECTION_FAILED_SERVER_DOES_NOT_EXIST,,.ﺮﻓﺮﻴﺴﻟﺎﺑ ﻝﺎﺼﺗﻻﺍ ﺭﺬﻌﺗ<br>ﺩﻮﺟﻮﻣ ﺮﻴﻏﺮﻓﺮﻴﺴﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CONNECTION_FAILED_SERVER_AT_CAPACITY,,.ﺮﻓﺮﻴﺴﻟﺎﺑ ﻝﺎﺼﺗﻻﺍ ﺭﺬﻌﺗ<br>ﺊﻠﺘﻤﻣ ﺮﻓﺮﻴﺴﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CONNECTION_FAILED_VERSION_MISMATCH,,.ﺮﻓﺮﻴﺴﻟﺎﺑ ﻝﺎﺼﺗﻻﺍ ﺭﺬﻌﺗ<br>ﻯﺮﺧﺃ ﺓﺮﻣ ﻝﻭﺎﺣﻭ ﻚﺘﺒﻌﻟ ﺙﺪﺣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CONNECTION_FAILED_INVALID_PASSWORD,,ﺔﻘﺑﺎﻄﻣ ﺮﻴﻏ ﺮﺴﻟﺍ ﺔﻤﻠﻛ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CONNECTION_FAILED_MASTER_SERVER_UNREACHABLE,,.ﺮﻓﺮﻴﺴﻟﺎﺑ ﻝﺎﺼﺗﻻﺍ ﺭﺬﻌﺗ<br>ﻯﺮﺧﺃ ﺓﺮﻣ ﻝﻭﺎﺣﻭ ﺖﻧﺮﺘﻧﻹﺎﺑ ﻚﻟﺎﺼﺗﺍ ﻦﻣ ﻖﻘﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CONNECTION_FAILED_MASTER_SERVER_NOT_AUTHENTICATED,,.ﺮﻓﺮﻴﺴﻟﺎﺑ ﻝﺎﺼﺗﻻﺍ ﺭﺬﻌﺗ<br>ﻯﺮﺧﺃ ﺓﺮﻣ ﻝﻭﺎﺣﻭ ﺖﻧﺮﺘﻧﻹﺎﺑ ﻚﻟﺎﺼﺗﺍ ﻦﻣ ﻖﻘﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CONNECTION_FAILED_NETWORK_NOT_CONNECTED,,.ﺔﻜﺒﺸﻟﺎﺑ ﻝﺎﺼﺗﻻﺍ ﺭﺬﻌﺗ<br>ﻯﺮﺧﺃ ﺓﺮﻣ ﻝﻭﺎﺣﻭ ﺖﻧﺮﺘﻧﻹﺎﺑ ﻚﻟﺎﺼﺗﺍ ﻦﻣ ﻖﻘﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_INVALID_PASSWORD,,ﺔﻘﺑﺎﻄﻣ ﺮﻴﻏ ﺮﺴﻟﺍ ﺔﻤﻠﻛ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TEXT_INVALID_PASSWORD,,ﺔﺤﻴﺤﺻ ﺮﻴﻏ ﺖﻧﺎﻛ ﻚﺑ ﺔﺻﺎﺨﻟﺍ ﺮﺴﻟﺍ ﺔﻤﻠﻛ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_NAME,,ﺐﻋﻼﻟﺍ ﻢﺳﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUGGESTED_BEATMAP,,ﺔﺣﺮﺘﻘﻤﻟﺍ ﻂﺋﺍﺮﺨﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUGGESTED_MODIFIERS,,ﺔﺣﺮﺘﻘﻤﻟﺍ ﺕﺎﻓﺎﺿﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MUSIC_PACK,,ﻰﻘﻴﺳﻮﻤﻟﺍ ﻡﻮﺒﻟﻷﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DIFFICULTY,,ﺔﺑﻮﻌﺻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_JOIN_SERVER,,ﻢﻀﻧﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEVEL_END_ACTION_QUIT,,ﺝﻭﺮﺧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEVEL_END_ACTION_RESTART,,ﺔﻟﻭﺎﺤﻤﻟﺍ ﺓﺩﺎﻋﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEVEL_END_ACTION_MULTIPLAYER_INACTIVE,,ﻂﺸﻧ ﺮﻴﻏ ﻦﻴﺒﻋﻼﻟﺍ ﺩﺪﻌﺘﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEVEL_END_ACTION_LOST_CONNECTION,,ﻝﺎﺼﺗﻻﺍ ﻊﻄﻘﻧﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEVEL_END_ACTION_STARTUP_FAILED,,ﻞﻴﻐﺸﺘﻟﺍ ﺀﺪﺑ ﻞﺸﻓ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LEVEL_END_ACTION_HOST_ENDED_LEVEL,,ﻯﻮﺘﺴﻤﻟﺍ ﺀﺎﻬﻧﺇ ﻒﻴﻀﻤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_QUIT_LOBBY_CONFIRMATION,,ﺔﻋﻮﻤﺠﻤﻟﺍ ﺭﺩﺎﻏ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TEXT_QUIT_LOBBY_CONFIRMATION,,؟ﺔﻋﻮﻤﺠﻤﻟﺍ ﺓﺭﺩﺎﻐﻣ ﺪﻳﺮﺗ ﻚﻧﺃ ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NO_BEATMAP_SELECTED,,ﺔﻄﻳﺮﺧ ﺪﻳﺪﺤﺗ ﻢﺘﻳ ﻢﻟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NO_MODIFIERS,,ﺕﺎﻓﺎﺿﺇ ﻥﻭﺪﺑ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_OST_AND_EXTRA,,ﺔﻴﻓﺎﺿﻹﺍ ﻭ ﺔﻴﻤﺳﺮﻟﺍ ﻰﻘﻴﺳﻮﻤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_CUSTOM_LEVELS,,ﺺﺼﺨﻣ ﻯﻮﺘﺴﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_FAVORITES,,ﺔﻠﻀﻔﻤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_ALL_SONGS,,ﻲﻧﺎﻏﻷﺍ ﻊﻴﻤﺟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_FILTER_PARAMETERS,,ﺔﻴﻔﺼﺘﻟﺍ ﻞﻣﺎﻋ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_NO_FILTERS,,ﺔﻴﻔﺼﺘﻟﺍ ﻞﻣﺎﻋ ﻥﻭﺪﺑ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_FILTER_BY_CHARACTERISTIC,,ﺺﺋﺎﺼﺨﻟﺍ ﺐﺴﺣ ﺔﻴﻔﺼﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_CHARACTERISTIC,,ﺺﺋﺎﺼﺧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_CLEAR,,ﺢﺴﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MP_WAITING_FOR_OTHER_PLAYERS,,ﻦﻳﺮﺧﺍ ﻦﻴﺒﻋﻻ ﺭﺎﻈﺘﻧﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYERS_GET_READY,,ﻥﻭﺪﻌﺘﺴﻳ ﻥﻮﺒﻋﻼﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+IN_GAME_PLAYER_LABEL,,ﺐﻋﻻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NEXT_BEATMAP,,ﺔﻴﻟﺎﺘﻟﺍ ﺔﻄﻳﺮﺨﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NO_BEATMAP,,ﺔﻄﻳﺮﺧ ﺪﺟﻮﺗ ﻻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KICK_PLAYER,,Kick,,,,,,,,,,,,,,,,,,,,,,,,,,,
+USE_BUTTON,,Use,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_AVATAR,,ﺔﻴﺼﺨﺸﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_FACIAL_HAIR,,ﻪﺟﻮﻟﺍ ﺮﻌﺷ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HANDS,,ﻱﺩﺎﻳﺃ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_SKIN,,ﺓﺮﺸﺑ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HAIR,,ﺮﻌﺷ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_EYES,,ﻥﻮﻴﻋ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_MOUTH,,ﻢﻓ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_GLASSES,,ﺕﺍﺭﺎﻈﻧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FILTER_BY_OWNED_SONGS,,ﺔﻛﻮﻠﻤﻤﻟﺍ ﻲﻧﺎﻏﻷﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FILTER_BY_NOT_PLAYED_YET,,ﺪﻌﺑ ﺐﻌﻠﺗ ﻢﻟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FILTER_BY_MIN_BPM,,ﺔﻘﻴﻗﺪﻟﺍ ﻲﻓ ﺕﺎﻀﺒﻨﻟﺍ ﺩﺪﻋ ﺐﺴﺣ ﺔﻴﻔﺼﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MIN_BPM,,ﺔﻘﻴﻗﺪﻟﺍ ﻲﻓ ﺕﺎﻀﺒﻨﻟﺍ ﺩﺪﻋ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FILTER_BY_MAX_BPM,,ﺕﺎﻀﺒﻨﻟﺍ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ ﺐﺴﺣ ﺔﻴﻔﺼﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MAX_BPM,,ﺕﺎﻀﺒﻨﻟﺍ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_FILTER_BY_TEXT,,ﺺﻨﻟﺍ ﺐﺴﺣ ﺔﻴﻔﺼﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_TEXT,,ﺺﻨﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NO_ALLOWED_BEATMAP_INFO,,ﺎﻬﺑ ﺡﻮﻤﺴﻣ ﺔﺑﻮﻌﺻ ﻭﺃ ﺔﻴﺻﺎﺧ ﻱﺃ ﻰﻠﻋ ﻯﻮﺘﺴﻤﻟﺍ ﺍﺬﻫ ﻱﻮﺘﺤﻳ ﻻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_RANDOMIZE,,ﺎﻴﺋﺍﻮﺸﻋ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_CLOTHES_BASKET,,ﺔﻠﺳ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_CLOTHES_DRESS,,ﻥﺎﺘﺴﻓ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_CLOTHES_HOODIE,,ﻱﺩﻮﻫ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_CLOTHES_JACKET,,ﺖﻴﻛﺎﺟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_CLOTHES_JUMPSUIT,,ﺕﻮﺴﺒﻤﺟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_CLOTHES_ROCK,,ﻙﻭﺭ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_CLOTHES_TRACKSUIT,,ﺔﻴﺿﺎﻳﺮﻟﺍ ﺔﻟﺪﺒﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_CLOTHES_VEST,,ﻱﺮﻳﺪﺻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_EYES_EYES1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_EYES_EYES2,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_EYES_EYES3,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_EYES_EYES4,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_EYES_EYES5,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_EYES_EYES6,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_EYES_EYES7,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_EYES_EYES8,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_EYES_EYES9,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_EYES_EYES10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_EYES_EYES11,,11,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_EYES_EYES12,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_FACIALHAIR_NONE,,ﺀﻲﺷ ﻻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_FACIALHAIR_BEARD01,,ﺔﻴﺤﻠﻟﺍ 1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_FACIALHAIR_BEARD02,,ﺔﻴﺤﻠﻟﺍ 2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_FACIALHAIR_BEARD03,,ﺔﻴﺤﻠﻟﺍ 3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_FACIALHAIR_MOUSTACHE01,,ﺏﺭﺎﺷ 1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_FACIALHAIR_MOUSTACHE02,,ﺏﺭﺎﺷ 2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_GLASSES_NONE,,ﺀﻲﺷ ﻻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_GLASSES_GLASSES01,,ﺕﺍﺭﺎﻈﻧ 1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_GLASSES_GLASSES02,,ﺕﺍﺭﺎﻈﻧ 2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEAD_NONE,,ﺀﻲﺷ ﻻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_BEDHEAD,,Bed Head,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_BOB,,ﺏﻮﺑ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_DOUBLETROUBLE,,Double Trouble,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_EMO,,Emo,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_HALFSHAVED,,ﻕﻮﻠﺤﻣ ﻒﺼﻧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_HEARTBREAK,,Heartbreak,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_HIPPIE,,ﺰﻴﺒﻴﻫ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_LONGBANGS,,Long Bangs,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_LOOSE,,Loose,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_MAGICIAN,,ﺮﺣﺎﺳ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_NANNY,,Nanny,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_NORMIE,,Normie,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_ONFIRE,,OnFire,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_POLOCAP,,Polo Cap,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_PONYTAIL,,Ponytail,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_PUNK,,Punk,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_SCIFI,,Scifi,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_SULTAN,,ﻥﺎﻄﻠﺳ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_SWEATBAND,,Sweat Band,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_UNTIDY,,Untidy,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_WETHAIR,,Wet Hair,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_WINDSWEPT,,Windswept,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_WINTERHAT,,ﺔﻳﻮﺘﺷ ﺔﻌﺒﻗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HEADTOP_WIZARD,,Wizard,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_MOUTH_MOUTH1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_MOUTH_MOUTH2,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_MOUTH_MOUTH3,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_MOUTH_MOUTH4,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_MOUTH_MOUTH5,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_MOUTH_MOUTH6,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_MOUTH_MOUTH7,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_MOUTH_MOUTH8,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_MOUTH_MOUTH9,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_MOUTH_MOUTH10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_MOUTH_MOUTH11,,11,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_MOUTH_MOUTH12,,12,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HANDS_FINGERLESS,,ﻊﺑﺎﺻﺍ ﻥﻭﺪﺑ ﺕﺍﺯﺎﻔﻗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AVATAR_HANDS_BAREHANDS,,ﻥﺎﺘﻏﺭﺎﻓ ﻥﺍﺪﻳ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_EDIT_AVATAR,,ﺔﻴﺼﺨﺸﻟﺍ ﻞﻳﺪﻌﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_CREATE_AVATAR,,ﻚﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻴﺼﺨﺸﻟﺍ ﺀﺎﺸﻧﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_DISCONNECT,,ﻝﺎﺼﺗﻻﺍ ﻊﻄﻗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_GIVE_UP,,ﻢﻠﺴﺘﺳﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_RESUME,,ﻒﻨﺌﺘﺳﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_SERVER_CODE,,ﺮﻓﺮﻴﺴﻟﺍ ﺯﻮﻣﺭ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_CLIENT_DISCONNECTED,,ﻞﺼﺘﻣ ﺮﻴﻏ ﺐﻋﻻﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_RECOMMEND,,ﻲﺻﻮﻳ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MULTIPLAYER_DISCLAIMER,,"ﻦﻣ ﻥﻭﺮﺧﻵﺍ ﻥﻮﺒﻋﻼﻟﺍ ﻦﻜﻤﺘﻴﺴﻓ ، ﻦﻴﺒﻋﻼﻟﺍ ﺩﺪﻌﺗ ﻊﺿﻭ ﻲﻓ ﺐﻌﻠﺗ ﺖﻨﻛ ﺍﺫﺇ ﻯﺮﺧﻷﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍﻭ ﺔﻳﺰﻣﺮﻟﺍ ﺓﺭﻮﺼﻟﺍﻭ ﻚﺑ ﺹﺎﺨﻟﺍ ﻡﺪﺨﺘﺴﻤﻟﺍ ﻢﺳﺍ ﺔﻳﺅﺭ .ﻦﻴﺒﻋﻼﻟﺍ ﺓﺩﺪﻌﺘﻣ ﺏﺎﻌﻟﺃ ﺐﻌﻟ ﻦﻣ ﻚﻨﻴﻜﻤﺘﻟ ﺔﻳﺭﻭﺮﻀﻟﺍ",,,,,,,,,,,,,,,,,,,,,,,,,,,
+MP_MISSING_SONG_ENTITLEMENT,,ﺩﻮﻘﻔﻣ ﺔﻴﻨﻏﻷﺍ ﻕﺎﻘﺤﺘﺳﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_RECOMMEND_LEVEL,,ﻯﻮﺘﺴﻤﻟﺍ ﻲﺻﻮﻳ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_JOINING_LOBBY,,ﺔﻋﻮﻤﺠﻤﻟﺍ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻻﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_SELECT,,ﺪﻳﺪﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_SELECT_LEVEL,,ﻯﻮﺘﺴﻣ ﺪﻳﺪﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CONFIRM_KICK,,Confirm Kick,,,,,,,,,,,,,,,,,,,,,,,,,,,
+COUNTDOWN_GO,,!ﻖﻠﻄﻧﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_CLIENT_SETUP,,Client Setup,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_GAME_STARTING,,ﺔﺒﻌﻠﻟﺍ ﺀﺪﺑ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_SUGGEST_MODIFIERS,,ﺕﺎﻓﺎﺿﺇ ﺡﺮﺘﻗﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_GAME_BROWSER,,ﺔﺒﻌﻠﻟﺍ ﺢﻔﺼﺘﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_CREATE_SERVER,,ﺮﻓﺮﻴﺴﻟﺍ ﺀﺎﺸﻧﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_JOIN_SERVER,,ﺮﻓﺮﻴﺴﻟ ﻢﻀﻧﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_GAME_SERVER_FILTER,,ﺔﺒﻌﻠﻟﺍ ﺕﺍﺮﻓﺮﻴﺳ ﻪﻴﻔﺼﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_HOST_SETUP,,ﻒﻴﻀﻤﻟﺍ ﺩﺍﺪﻋﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_SELECT_MODIFIERS,,ﺕﺎﻓﺎﺿﺇ ﺩﺪﺣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_MULTIPLAYER_MODE_SELECTION,,ﻦﻴﺒﻋﻼﻟﺍ ﺩﺪﻌﺘﻣ ﻊﺿﻭ ﺪﻳﺪﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_JOIN_QUICK_PLAY,,ﻊﻳﺮﺴﻟﺍ ﺐﻌﻠﻟﺍ ﻰﻟﺇ ﻢﻀﻧﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_JOIN_VIA_CODE,,ﺰﻣﺮﻟﺍ ﺮﺒﻋ ﻢﻀﻧﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_JOINING_QUICK_PLAY,,ﻊﻳﺮﺴﻟﺍ ﺐﻌﻠﻟﺍ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻻﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_JOINING_GAME,,ﺔﺒﻌﻠﻟﺍ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻻﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_CREATING_SERVER,,ﺮﻓﺮﻴﺴﻟﺍ ﺀﺎﺸﻧﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_MULTIPLAYER_DISCLAIMER,,ﻦﻴﺒﻋﻼﻟﺍ ﺩﺪﻌﺗ ﺔﻴﻟﻭﺆﺴﻣ ﺀﻼﺧﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_QUICK_PLAY_LOBBY,,ﺔﻋﻮﻤﺠﻤﻠﻟ ﻊﻳﺮﺴﻟﺍ ﺐﻌﻠﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MODIFIER_ALL,,ﻞﻜﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MODIFIER_NONE,,ﺀﻲﺷ ﻻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_OBSERVE_NEXT,,ﻰﻟﺎﺘﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_OBSERVE_PREV,,ﻖﺑﺎﺴﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_DO_NOT_AGREE_AND_QUIT,,ﺝﺮﺧﺍﻭ ﻖﻓﺍﻮﺗ ﻻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_AGREE,,ﻖﻓﺍﻮﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SETTINGS_ENABLE_OPEN_PARTY,,ﻪﻠﻔﺣ ﺢﺘﻓ ﻦﻴﻜﻤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_LOCAL_NETWORK_PLAYERS,,ﻦﻴﺒﻋﻼﻟﺍ ﺔﻴﻠﺤﻤﻟﺍ ﺔﻜﺒﺸﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OPEN_DATA_PRIVACY_PAGE_BUTTON,, ﺔﻴﺻﻮﺼﺨﻟﺍ ﺕﺎﻧﺎﻴﺑ ﺢﺘﻓﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PRACTICE,,ﻦﻳﺮﻤﺘﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SETTINGS_ENABLE_NETWORK_DISCOVERABILITY,,ﺔﻜﺒﺸﻟﺍ ﻑﺎﺸﺘﻛﺍ ﻦﻴﻜﻤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NO_LEVEL_SELECTED,,ﻯﻮﺘﺴﻣ ﻱﺃ ﺪﻳﺪﺤﺗ ﻢﺘﻳ ﻢﻟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NEXT_LEVEL,,ﻲﻟﺎﺘﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUGGESTED_LEVEL,,ﺡﺮﺘﻘﻤﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_READY,,ﺰﻫﺎﺟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_MODIFIERS,,ﺕﻻﺪﻌﻤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_FILTER_BY_MODIFIERS,,ﺕﻻﺪﻌﻤﻟﺍ ﺐﺴﺣ ﺔﻴﻔﺼﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_JOIN,,ﻢﻀﻧﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_JOIN,,ﻢﻀﻧﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_JOIN_WITH_CODE,,ﺰﻣﺮﻟﺍ ﻊﻣ ﻢﻀﻧﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_QUICK_PLAY,,ﻊﻳﺮﺴﻟﺍ ﺐﻌﻠﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_SERVER_BROWSER,,ﺮﻓﺮﻴﺴﻟﺍ ﺢﻔﺼﺘﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_SECRET_CODE,,ﻱﺮﺴﻟﺍ ﺰﻣﺮﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SETTINGS_AUDIO_LATENCY,,ﺕﻮﺼﻟﺍ ﻝﻮﺻﻭ ﻦﻣﺯ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CHOOSE_COLOR,,ﻥﻮﻠﻟﺍ ﺮﺘﺧﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOBBY_AUTO_SETUP,,ﺕﻮﺼﻟﺍ ﺩﺍﺪﻋﻹﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOBBY_SELECT_BASED_ON_SUGGESTION,,ﺡﺍﺮﺘﻗﺍ ﻰﻠﻋ ﺀﺎﻨﺑ ﺪﻳﺪﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOBBY_FORCE_AUTO_START,,ﻲﺋﺎﻘﻠﺘﻟﺍ ﻞﻴﻐﺸﺘﻟﺍ ﺽﺮﻓ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOBBY_RANDOM_SONG_IF_NONE_SUGGESTED,,ﺀﻲﺷ ﻱﺃ ﺡﺍﺮﺘﻗﺍ ﻢﺘﻳ ﻢﻟ ﺍﺫﺇ ﺔﻴﺋﺍﻮﺸﻋ ﺔﻴﻨﻏﺃ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LOBBY_AUTO_START_ALL_READY,,ﺍًﺰﻫﺎﺟ ﻞﻜﻟﺍ ﻥﻮﻜﻳ ﺎﻣﺪﻨﻋ ﻲﺋﺎﻘﻠﺘﻟﺍ ﺀﺪﺒﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYERS,,ﻦﻴﺒﻋﻼﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_CHOOSE_COLORS,,ﻥﺍﻮﻟﻷﺍ ﺮﺘﺧﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_NEXT_LEVEL,,ﻲﻟﺎﺘﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_RELEASE_NOTES,,ﺕﺎﺗﻮﻨﻟﺍ ﺭﺍﺪﺻﻹﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_UNEXPECTED_ERROR_OCCURED,,ﻊﻗﻮﺘﻣ ﺮﻴﻏ ﺄﻄﺧ ﺙﺪﺣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_SPECTATING_SPOT,,ﺝﺮﻔﺘﻤﻟﺍ ﺔﻘﻄﻨﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_GRANDSTAND,,ﺝﺭﺪﻤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITLE_QUICK_PLAY_COUNTDOWN,,ﻊﻳﺮﺴﻟﺍ ﻞﻴﻐﺸﺘﻠﻟ ﻲﻟﺯﺎﻨﺘﻟﺍ ﺪﻌﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_CHECKING_SERVER_STATUS,,ﻡﺩﺎﺨﻟﺍ ﺔﻟﺎﺣ ﻦﻣ ﻖﻘﺤﺘﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_MULTIPLAYER_UNAVAILABLE_ERROR,,ﻝﺎﺼﺗﻹﺍ ﻲﻓ ﺄﻄﺧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CREDITS_ADDITIONAL_VFX,,ﺔﻴﻓﺎﺿﻹﺍ ﺔﻳﺮﺼﺒﻟﺍ ﺕﺍﺮﺛﺆﻤﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CREDITS_DEVELOPMENT_PROJECT_MANAGER,,ﺮﻳﻮﻄﺗ ﻉﻭﺮﺸﻣ ﺮﻳﺪﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CREDITS_OCULUS_STUDIOS,,ﺔﻴﻌﻗﺍﻮﻟﺍ ﻙﻮﺒﺴﻴﻓ ﺕﺍﺮﺒﺘﺨﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CREDITS_OPERATIONS_LEAD,,ﺕﺎﻴﻠﻤﻌﻟﺍ ﺪﺋﺎﻗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CREDITS_PRODUCER,,ﺞﺘﻨﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CREDITS_HEAD_OF_CONTENT_STRATEGY,,ﻯﻮﺘﺤﻤﻟﺍ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﺍ ﺲﻴﺋﺭ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_CANT_START_GAME_ALL_PLAYERS_SPECTATING,,ﻥﻭﺪﻫﺎﺸﻳ ﻦﻴﺒﻋﻼﻟﺍ ﻞﻛ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_CANT_START_GAME_NO_SONG_SELECTED,,ﺔﻴﻨﻏﺃ ﺭﺎﻴﺘﺧﺍ ﻢﺘﻳ ﻢﻟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_CANT_START_GAME_ALL_PLAYERS_NOT_IN_LOBBY,,ﺔﻋﻮﻤﺠﻤﻟﺍ ﻰﻟﺇ ﺍﻭﺩﺎﻋ ﻦﻴﺒﻋﻼﻟﺍ ﻞﻛ ﺲﻴﻟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_CANT_START_GAME_DO_NOT_OWN_SONG,,ﺔﻴﻨﻏﻷﺍ ﻚﻠﻤﺗ ﻻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_DO_NOT_OWN_SONG,,ﺔﻴﻨﻏﻷﺍ ﻩﺬﻫ ﻚﻠﻤﺗ ﻻ ﺖﻧﺃ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_PREVIOUS,,ﻖﺑﺎﺴﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_CREATE_AVATAR,,ﺔﻴﺼﺨﺸﻟﺍ ﺀﺎﺸﻧﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_SEARCH,,ﺚﺤﺑ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_WAITING_FOR_SONG_DOWNLOAD,,ﺔﻴﻨﻏﻻﺍ ﻞﻴﻤﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_END_GAME,,ﺔﺒﻌﻠﻟﺍ ﺔﻳﺎﻬﻧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_OPTIONS_SP_ONLY,,ﻂﻘﻓ ﺩﺮﻔﻨﻤﻟﺍ ﺐﻋﻼﻟﺍ ﺕﺍﺭﺎﻴﺧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLAYER_SETTINGS_NJBSO,,ﻊﻳﺮﺴﻟﺍ ﻝﺎﻘﺘﻧﻻﺍ ﺕﺎﺗﻮﻧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SETTINGS_LANGUAGE,,ﺔﻐﻟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LANGUAGE_EN,,ﺔﻳﺰﻴﻠﺠﻧﻹﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LANGUAGE_SC,,ﺔﻄﺴﺒﻤﻟﺍ ﺔﻴﻨﻴﺼﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_PLAYER_OPTIONS,,ﺐﻋﻼﻟﺍ ﺕﺍﺭﺎﻴﺧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_YES,,ﻢﻌﻧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_NO,,ﻻ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLACEHOLDER_ENTER_NAME,,ﻢﺳﻻﺍ ﻞﺧﺩﺃ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PLACEHOLDER_SERVER_PASSWORD,,ﺮﻓﺮﻴﺴﻟﺍ ﺭﻭﺮﻣ ﺔﻤﻠﻛ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DISCONNECTED_UNKNOWN,,ﻞﺼﺘﻣ ﺮﻴﻏ<br>ﻯﺮﺧﺃ ﺓﺮﻣ ﻝﻭﺎﺣﻭ ﺖﻧﺮﺘﻧﻹﺎﺑ ﻚﻟﺎﺼﺗﺍ ﻦﻣ ﻖﻘﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DISCONNECTED_USER_INITIATED,,ﻞﺼﺘﻣ ﺮﻴﻏ<br>ﻡﺪﺨﺘﺴﻤﻟﺍ ﺃﺪﺑ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DISCONNECTED_TIMEOUT,,ﻞﺼﺘﻣ ﺮﻴﻏ<br>ﺮﻓﺮﻴﺴﻟﺍ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DISCONNECTED_KICKED,,ﻞﺼﺘﻣ ﺮﻴﻏ<br>ﻙﺩﺮﻃ ﻢﺗ ﺪﻘﻟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DISCONNECTED_SERVER_AT_CAPACITY,,ﻞﺼﺘﻣ ﺮﻴﻏ<br>ﻪﺘﻌﺳ ﻲﻓ ﺮﻓﺮﻴﺴﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DISCONNECTED_SERVER_SHUT_DOWN,,ﻞﺼﺘﻣ ﺮﻴﻏ<br>ﺮﻓﺮﻴﺴﻟﺍ ﻕﻼﻏﺇ ﻢﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DISCONNECTED_MASTER_SERVER_UNREACHABLE,,ﻞﺼﺘﻣ ﺮﻴﻏ<br>.ﻯﺮﺧﺃ ﺓﺮﻣ ﻝﻭﺎﺣﻭ ﺖﻧﺮﺘﻧﻹﺎﺑ ﻚﻟﺎﺼﺗﺍ ﻦﻣ ﻖﻘﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MULTIPLAYER_UNAVAILABLE_NETWORK_UNREACHABLE,,ﺮﻓﻮﺘﻣ ﺮﻴﻏ ﻦﻴﺒﻋﻼﻟﺍ ﺓﺩﺪﻌﺘﻣ<br>ﻯﺮﺧﺃ ﺓﺮﻣ ﻝﻭﺎﺣﻭ ﺖﻧﺮﺘﻧﻹﺎﺑ ﻚﻟﺎﺼﺗﺍ ﻦﻣ ﻖﻘﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MULTIPLAYER_UNAVAILABLE_SERVER_OFFLINE,,ﺮﻓﻮﺘﻣ ﺮﻴﻏ ﻦﻴﺒﻋﻼﻟﺍ ﺓﺩﺪﻌﺘﻣ<br>ﻞﺼﺘﻣ ﺮﻴﻏﺮﻓﺮﻴﺴﻟﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MULTIPLAYER_UNAVAILABLE_UPDATE_REQUIRED,,ﺮﻓﻮﺘﻣ ﺮﻴﻏ ﻦﻴﺒﻋﻼﻟﺍ ﺓﺩﺪﻌﺘﻣ<br>ﺮﺒﻴﺳ ﺖﻴﺑ ﺚﻳﺪﺤﺗ ﺏﻮﻠﻄﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MULTIPLAYER_UNAVAILABLE_MAINTENANCE_MODE,,ﺮﻓﻮﺘﻣ ﺮﻴﻏ ﻦﻴﺒﻋﻼﻟﺍ ﺓﺩﺪﻌﺘﻣ<br>ﻲﻓ ﺔﻧﺎﻴﺼﻟﺍ ﻲﻬﺘﻨﺗ {0},,,,,,,,,,,,,,,,,,,,,,,,,,,
+MULTIPLAYER_UNAVAILABLE_UNKNOWN,,ﺮﻓﻮﺘﻣ ﺮﻴﻏ ﻦﻴﺒﻋﻼﻟﺍ ﺓﺩﺪﻌﺘﻣ<br>ﻯﺮﺧﺃ ﺓﺮﻣ ﻝﻭﺎﺣﻭ ﺖﻧﺮﺘﻧﻹﺎﺑ ﻚﻟﺎﺼﺗﺍ ﻦﻣ ﻖﻘﺤﺗ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NO_NAME_PLAYER,,ﻢﺳﺍ ﻥﻭﺪﺑ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_UNREADY,,ﺰﻫﺎﺟ ﺮﻴﻏ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUGGEST_BEATMAP_AND_MODIFIERS,,ﺕﺎﻓﺎﺿﻹﺍﻭ ﻂﻳﺮﺨﻟﺍ ﺡﺮﺘﻗﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUGGEST_BEATMAP,,ﺔﻄﻳﺮﺨﻟﺍ ﺡﺮﺘﻗﺍ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_DEFAULT,,ﻲﺿﺍﺮﺘﻓﺇ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BUTTON_OPTIONS,,ﺕﺍﺭﺎﻴﺧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_OPTIONS,,ﺕﺍﺭﺎﻴﺧ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+COUNTDOWN_READY,,!ﺰﻫﺎﺟ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+COUNTDOWN_SET,,!ﺪﻌﺘﺴﻣ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_PLAYERS_MISSING_ENTITLEMENT,,ﺔﻴﻨﻏﻷﺍ ﻩﺬﻫ ﻥﻮﻜﻠﻤﻳ ﻻ ﻥﻮﺒﻋﻼﻟﺍ ﺀﻻﺆﻫ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_KICK_PLAYER_PROMPT,,ﺐﻋﻼﻟﺍ ﻞﻛﺭ ﻚﺷﻭ ﻰﻠﻋ ﺖﻧﺃ {0}.<br>؟ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LABEL_MULTIPLAYER_MAINTENANCE_UPCOMING,,ﻦﻣ ﺔﻣﺩﺎﻘﻟﺍ ﺔﻧﺎﻴﺼﻟﺍ {0} ﻰﺘﺣ {1},,,,,,,,,,,,,,,,,,,,,,,,,,,
