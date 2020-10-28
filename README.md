@@ -22,7 +22,8 @@ C:\Program Files (x86)\Steam\SteamLibrary\steamapps\common\Beat Saber\Beat Saber
  
 5 - اخذ نسخ من الملفات الاصلية وحفظها في المستندات لديك قبل ما تستبدل الملفات المعدله 
 1 - resources.assets
-2 - 
 
                                      ( ملاحظة ( مشاكل الترجمة 
 اي أخطاء في الترجمة او اي مشاكل في ادخال الترجمة ارجو التصوير الأخطاء لتعديله على الايميل 
+
+general0c4@gmail.com
