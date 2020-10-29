@@ -14,6 +14,7 @@ https://github.com/Assistant/ModAssistant/
  
  3-  ( GENERALC4 ) حمل الملفات الترجمة وفك الضغط الرقم السري 
 
+ https://github.com/General-c4/Beat-Saber-Arabic/releases/tag/v1.1
  
  4 - الذهاب الى ملف العبة والدخول الى المسار حسب مسار العبة لديك 
 
