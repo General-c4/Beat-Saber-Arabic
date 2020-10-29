@@ -27,3 +27,9 @@ C:\Program Files (x86)\Steam\SteamLibrary\steamapps\common\Beat Saber\Beat Saber
 اي أخطاء في الترجمة او اي مشاكل في ترتيب الكلمات الترجمة ارجو التصوير الأخطاء لتعديله على وارسالها على الايميل 
 
 general0c4@gmail.com
+
+
+شرح طريقة التعريب 
+
+https://youtu.be/nDO7f7fLidU
+
